@@ -1,20 +1,22 @@
-# Paimon Codex Pet
+# 派蒙 Codex Pet
 
-A custom Codex desktop pet inspired by Paimon, simplified into the Codex digital pet sprite style.
+这是一个用于 Codex 桌面端的自定义 pet 包。角色方向是“派蒙灵感”的小型数字伙伴：白色短发、金色小冠、星形发饰、白蓝金配色、夸张表情和轻量像素风轮廓。
 
-This repository contains the packaged pet files, generation prompts, and QA artifacts used to validate the final animated spritesheet.
+> 说明：这是 fan-made / inspired 自定义素材，不是官方资源，也不与 HoYoverse、miHoYo、Genshin Impact 或 OpenAI 存在授权、赞助或背书关系。
 
-## Install
+![动作总览](qa/contact-sheet.png)
 
-Copy the packaged pet folder into your Codex pets directory:
+## 安装
+
+把仓库里的 `pet/paimon` 文件夹复制到 Codex 的 pets 目录：
 
 ```powershell
 Copy-Item -Recurse -Force .\pet\paimon "$env:USERPROFILE\.codex\pets\paimon"
 ```
 
-Then restart Codex, or use the command menu action `Force Reload Skills` / reload assets if available in your build.
+然后重启 Codex，或在命令菜单里执行 `Force Reload Skills` / reload assets。
 
-The installed package should contain:
+安装后的目录应当是：
 
 ```text
 %USERPROFILE%\.codex\pets\paimon\
@@ -22,48 +24,64 @@ The installed package should contain:
   spritesheet.png
 ```
 
-## Files
+`pet.json` 当前指向 `spritesheet.png`。这是为了兼容部分 Codex 桌面版本：这些版本可以在设置中发现 WebP pet，但选择时可能加载失败。
 
-- `pet/paimon/pet.json` - Codex pet manifest.
-- `pet/paimon/spritesheet.png` - Final 1536x1872 RGBA spritesheet used by `pet.json`.
-- `pet/paimon/spritesheet.webp` - WebP export kept as a secondary artifact.
-- `qa/contact-sheet.png` - Visual contact sheet for all animation rows.
-- `qa/review.json` - Frame extraction and component QA.
-- `qa/validation.json` - Atlas validation result.
-- `qa/videos/*.mp4` - Per-state preview loops.
-- `source/prompts/` - Base and row prompts used for generation.
-- `source/imagegen-jobs.json` - Image generation provenance manifest.
+## 当前加载包
 
-## Animation Rows
+- `pet/paimon/pet.json`：Codex pet manifest。
+- `pet/paimon/spritesheet.png`：实际加载的 1536x1872 RGBA spritesheet。
+- `pet/paimon/spritesheet.webp`：WebP 归档版本，仅保留用于对比。
 
-The spritesheet follows the Codex 8x9 atlas layout with 192x208 cells:
+## 动画状态
 
-| Row | State | Frames |
-| --- | --- | ---: |
-| 0 | idle | 6 |
-| 1 | running-right | 8 |
-| 2 | running-left | 8 |
-| 3 | waving | 4 |
-| 4 | jumping | 5 |
-| 5 | failed | 8 |
-| 6 | waiting | 6 |
-| 7 | running | 6 |
-| 8 | review | 6 |
+正式 pet 仍遵循 Codex 8x9 atlas，单格为 192x208。不要随意增加 atlas 行，否则 Codex 加载器可能不识别。
 
-## QA Summary
+| 行 | 状态 | 帧数 | 用途 |
+| --- | --- | ---: | --- |
+| 0 | `idle` | 6 | 常驻待机、眨眼 |
+| 1 | `running-right` | 8 | 向右移动 |
+| 2 | `running-left` | 8 | 向左移动，独立生成，没有镜像 |
+| 3 | `waving` | 4 | 打招呼 |
+| 4 | `jumping` | 5 | 开心跳跃 |
+| 5 | `failed` | 8 | 失败、眩晕、委屈 |
+| 6 | `waiting` | 6 | 等待、催促感 |
+| 7 | `running` | 6 | 通用跑动 |
+| 8 | `review` | 6 | 思考、检查、审阅 |
 
-Final validation passed:
+## 扩展素材
 
-- `qa/review.json`: `ok: true`, no errors, no warnings.
-- `qa/validation-png.json`: `ok: true`, 1536x1872 RGBA PNG, no errors, no warnings.
-- `qa/validation.json`: `ok: true`, 1536x1872 RGBA WebP, no errors, no warnings.
-- Preview videos were rendered for all nine states.
-- `pet.json` and `spritesheet.png` were packaged together under `pet/paimon`.
+为了让仓库更适合展示和二次整理，我额外加入了素材目录。这些素材不会影响 Codex pet 加载。
 
-The pet package uses PNG for the active spritesheet because some Codex desktop builds list WebP-backed custom pets in Settings but fail to load them at selection time. The WebP version remains in the repository only for comparison/archive.
+- `assets/frames/`：从最终 atlas 抽出的全部透明单帧。
+- `assets/expressions/`：精选表情单帧，包括普通、眨眼、问候、兴奋、眩晕、难过、思考、等待。
+- `assets/supplemental/expression-sheet.png`：补充表情参考图。
+- `assets/supplemental/action-sheet.png`：补充动作参考图。
 
-## Notes
+补充素材用于丰富文档和后续迭代，不是当前 `pet.json` 的加载入口。
 
-This is a fan-made Codex pet inspired by Paimon. It is not official, endorsed, sponsored, or affiliated with HoYoverse, miHoYo, Genshin Impact, or OpenAI.
+## QA
 
-No license is granted for the underlying character identity or any third-party trademarks. Use this repository as a personal custom pet package unless you have the rights needed for broader distribution.
+验证结果：
+
+- `qa/review.json`：`ok: true`，0 errors，0 warnings。
+- `qa/validation-png.json`：`ok: true`，1536x1872 RGBA PNG，0 errors，0 warnings。
+- `qa/validation.json`：`ok: true`，1536x1872 RGBA WebP，0 errors，0 warnings。
+- `qa/videos/*.mp4`：九个状态的预览视频。
+
+## 排错
+
+如果设置里能看到 Paimon，但选择后无法加载：
+
+1. 确认 `pet.json` 中是 `"spritesheetPath": "spritesheet.png"`。
+2. 确认 `spritesheet.png` 和 `pet.json` 在同一个目录。
+3. 确认 `pet.json` 是 UTF-8 无 BOM。
+4. 重启 Codex，或执行 `Force Reload Skills` / reload assets。
+5. 如果仍失败，优先查看 Codex 桌面端日志，而不是重新生成素材。
+
+## English Summary
+
+This repository contains a fan-made Codex desktop pet inspired by Paimon. The active package uses a PNG spritesheet for better Codex desktop compatibility. Extra frames and supplemental expression/action sheets are included for documentation and future iteration, but the loadable Codex pet remains the fixed 8x9 atlas under `pet/paimon`.
+
+## 版权与使用
+
+本项目不授予任何第三方角色、商标或游戏 IP 的授权。建议作为个人自定义 Codex pet 使用；如果要公开分发、商用或放入产品，请先确认你拥有相应权利。
