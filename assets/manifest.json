@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "loadable_pet": {
+    "manifest": "pet/paimon/pet.json",
+    "spritesheet": "pet/paimon/spritesheet.png",
+    "atlas": {
+      "width": 1536,
+      "height": 1872,
+      "cell_width": 192,
+      "cell_height": 208,
+      "rows": 9,
+      "columns": 8
+    },
+    "do_not_extend_atlas_without_revalidation": true
+  },
+  "expressions": [
+    {
+      "name": "blink",
+      "path": "assets/expressions/blink.png"
+    },
+    {
+      "name": "dizzy",
+      "path": "assets/expressions/dizzy.png"
+    },
+    {
+      "name": "excited",
+      "path": "assets/expressions/excited.png"
+    },
+    {
+      "name": "greeting",
+      "path": "assets/expressions/greeting.png"
+    },
+    {
+      "name": "neutral",
+      "path": "assets/expressions/neutral.png"
+    },
+    {
+      "name": "sad",
+      "path": "assets/expressions/sad.png"
+    },
+    {
+      "name": "thinking",
+      "path": "assets/expressions/thinking.png"
+    },
+    {
+      "name": "waiting",
+      "path": "assets/expressions/waiting.png"
+    }
+  ],
+  "states": [
+    {
+      "name": "failed",
+      "frame_count": 8,
+      "frames": [
+        "assets/frames/failed/00.png",
+        "assets/frames/failed/01.png",
+        "assets/frames/failed/02.png",
+        "assets/frames/failed/03.png",
+        "assets/frames/failed/04.png",
+        "assets/frames/failed/05.png",
+        "assets/frames/failed/06.png",
+        "assets/frames/failed/07.png"
+      ]
+    },
+    {
+      "name": "idle",
+      "frame_count": 6,
+      "frames": [
+        "assets/frames/idle/00.png",
+        "assets/frames/idle/01.png",
+        "assets/frames/idle/02.png",
+        "assets/frames/idle/03.png",
+        "assets/frames/idle/04.png",
+        "assets/frames/idle/05.png"
+      ]
+    },
+    {
+      "name": "jumping",
+      "frame_count": 5,
+      "frames": [
+        "assets/frames/jumping/00.png",
+        "assets/frames/jumping/01.png",
+        "assets/frames/jumping/02.png",
+        "assets/frames/jumping/03.png",
+        "assets/frames/jumping/04.png"
+      ]
+    },
+    {
+      "name": "review",
+      "frame_count": 6,
+      "frames": [
+        "assets/frames/review/00.png",
+        "assets/frames/review/01.png",
+        "assets/frames/review/02.png",
+        "assets/frames/review/03.png",
+        "assets/frames/review/04.png",
+        "assets/frames/review/05.png"
+      ]
+    },
+    {
+      "name": "running",
+      "frame_count": 6,
+      "frames": [
+        "assets/frames/running/00.png",
+        "assets/frames/running/01.png",
+        "assets/frames/running/02.png",
+        "assets/frames/running/03.png",
+        "assets/frames/running/04.png",
+        "assets/frames/running/05.png"
+      ]
+    },
+    {
+      "name": "running-left",
+      "frame_count": 8,
+      "frames": [
+        "assets/frames/running-left/00.png",
+        "assets/frames/running-left/01.png",
+        "assets/frames/running-left/02.png",
+        "assets/frames/running-left/03.png",
+        "assets/frames/running-left/04.png",
+        "assets/frames/running-left/05.png",
+        "assets/frames/running-left/06.png",
+        "assets/frames/running-left/07.png"
+      ]
+    },
+    {
+      "name": "running-right",
+      "frame_count": 8,
+      "frames": [
+        "assets/frames/running-right/00.png",
+        "assets/frames/running-right/01.png",
+        "assets/frames/running-right/02.png",
+        "assets/frames/running-right/03.png",
+        "assets/frames/running-right/04.png",
+        "assets/frames/running-right/05.png",
+        "assets/frames/running-right/06.png",
+        "assets/frames/running-right/07.png"
+      ]
+    },
+    {
+      "name": "waiting",
+      "frame_count": 6,
+      "frames": [
+        "assets/frames/waiting/00.png",
+        "assets/frames/waiting/01.png",
+        "assets/frames/waiting/02.png",
+        "assets/frames/waiting/03.png",
+        "assets/frames/waiting/04.png",
+        "assets/frames/waiting/05.png"
+      ]
+    },
+    {
+      "name": "waving",
+      "frame_count": 4,
+      "frames": [
+        "assets/frames/waving/00.png",
+        "assets/frames/waving/01.png",
+        "assets/frames/waving/02.png",
+        "assets/frames/waving/03.png"
+      ]
+    }
+  ],
+  "supplemental_sheets": [
+    {
+      "name": "action-sheet",
+      "path": "assets/supplemental/action-sheet.png"
+    },
+    {
+      "name": "expression-sheet",
+      "path": "assets/supplemental/expression-sheet.png"
+    }
+  ],
+  "gallery": [
+    "assets/gallery/expressions-overview.png",
+    "assets/gallery/states-overview.png"
+  ]
+}

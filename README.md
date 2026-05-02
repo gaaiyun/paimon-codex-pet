@@ -52,12 +52,19 @@ Copy-Item -Recurse -Force .\pet\paimon "$env:USERPROFILE\.codex\pets\paimon"
 
 为了让仓库更适合展示和二次整理，我额外加入了素材目录。这些素材不会影响 Codex pet 加载。
 
+- `assets/manifest.json`：素材索引，记录正式加载包、状态帧、表情帧、补充图和预览图。
 - `assets/frames/`：从最终 atlas 抽出的全部透明单帧。
 - `assets/expressions/`：精选表情单帧，包括普通、眨眼、问候、兴奋、眩晕、难过、思考、等待。
+- `assets/gallery/expressions-overview.png`：精选表情总览。
+- `assets/gallery/states-overview.png`：九个正式状态的首帧总览。
 - `assets/supplemental/expression-sheet.png`：补充表情参考图。
 - `assets/supplemental/action-sheet.png`：补充动作参考图。
 
 补充素材用于丰富文档和后续迭代，不是当前 `pet.json` 的加载入口。
+
+![精选表情](assets/gallery/expressions-overview.png)
+
+![状态首帧](assets/gallery/states-overview.png)
 
 ## QA
 
@@ -77,6 +84,15 @@ Copy-Item -Recurse -Force .\pet\paimon "$env:USERPROFILE\.codex\pets\paimon"
 3. 确认 `pet.json` 是 UTF-8 无 BOM。
 4. 重启 Codex，或执行 `Force Reload Skills` / reload assets。
 5. 如果仍失败，优先查看 Codex 桌面端日志，而不是重新生成素材。
+
+## 迭代原则
+
+为了避免再次破坏 Codex 加载，后续迭代遵循：
+
+1. 正式加载包只保留 `pet/paimon/pet.json` 和 `pet/paimon/spritesheet.png`。
+2. `spritesheet.png` 必须保持 1536x1872、RGBA、8x9 atlas、192x208 单格。
+3. 新动作和新表情先进入 `assets/`，通过文档和 manifest 管理。
+4. 只有重新跑完 atlas 验证、contact sheet 检查和本地加载验证后，才把新动作合并进正式 atlas。
 
 ## English Summary
 
