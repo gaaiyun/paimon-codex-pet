@@ -1,10 +1,11 @@
 {
   "ok": true,
-  "run_dir": "G:\\统计建模\\hatch-pet-paimon-run",
-  "spritesheet": "G:\\统计建模\\hatch-pet-paimon-run\\final\\spritesheet.webp",
-  "validation": "G:\\统计建模\\hatch-pet-paimon-run\\final\\validation.json",
-  "contact_sheet": "G:\\统计建模\\hatch-pet-paimon-run\\qa\\contact-sheet.png",
-  "review": "G:\\统计建模\\hatch-pet-paimon-run\\qa\\review.json",
-  "videos": "G:\\统计建模\\hatch-pet-paimon-run\\qa\\videos",
-  "package": "<codex-pets>\\paimon"
+  "spritesheet": "pet/paimon/spritesheet.png",
+  "spritesheet_archive": "pet/paimon/spritesheet.webp",
+  "validation_png": "qa/validation-png.json",
+  "validation_webp": "qa/validation.json",
+  "contact_sheet": "qa/contact-sheet.png",
+  "review": "qa/review.json",
+  "videos": "qa/videos",
+  "package": "pet/paimon"
 }
