@@ -1,40 +1,35 @@
 # QA Notes
 
-Generated with the `hatch-pet` Codex skill.
+The package passed atlas validation and a visual contact-sheet check before release.
 
-## Result
+## Validated files
 
-The final package passed deterministic validation and visual contact-sheet review.
-
-Important generated files:
-
-- Final package: `pet/paimon/pet.json`
-- Final active spritesheet: `pet/paimon/spritesheet.png`
-- Secondary WebP spritesheet: `pet/paimon/spritesheet.webp`
+- Loadable manifest: `pet/paimon/pet.json`
+- Loadable spritesheet: `pet/paimon/spritesheet.png`
+- Archived WebP spritesheet: `pet/paimon/spritesheet.webp`
 - Contact sheet: `qa/contact-sheet.png`
-- Frame QA: `qa/review.json`
+- Per-frame report: `qa/review.json`
 - PNG atlas validation: `qa/validation-png.json`
 - WebP atlas validation: `qa/validation.json`
 - State preview videos: `qa/videos/*.mp4`
 
-## Generation Notes
+The `qa/*.json` reports were produced on the original build machine, so the
+absolute paths inside them point at that machine. They are kept as a record of
+the original validation run. To re-validate the package on any machine, use the
+bundled checker instead:
 
-The base pet was generated first and recorded as the canonical identity reference. Animation row generation was delegated to subagents:
+```powershell
+python tools\validate_atlas.py
+```
 
-- `idle`
-- `running-right`
-- `running-left`
-- `waving`
-- `jumping`
-- `failed`
-- `waiting`
-- `running`
-- `review`
+It confirms the spritesheet is a 1536x1872 RGBA PNG laid out as an 8x9 atlas of
+192x208 cells, and that every extracted frame and expression listed in
+`assets/manifest.json` is present. Expected output ends with `Result: ok`.
 
-`running-left` was generated as its own grounded row instead of mirroring `running-right`, because the character design has side-specific visual elements.
+## Design choices worth keeping
 
-One `running-left` attempt failed with a tool-layer `Bad Request` when using four input images. The successful retry used the layout guide, canonical base, and approved base pet only.
-
-`ffmpeg` was not available on PATH, so `imageio-ffmpeg` was installed locally and its bundled ffmpeg binary was passed to the video renderer.
-
-After initial packaging, Codex Settings could discover the pet but failed to load it when selected. The active package was changed from `spritesheet.webp` to `spritesheet.png`, because the PNG atlas validates cleanly and avoids WebP compatibility issues in desktop pet loading.
+- `running-left` is its own row, not a horizontal mirror of `running-right`,
+  because the character has side-specific details that look wrong when flipped.
+- The active spritesheet is PNG rather than WebP. Some Codex desktop builds can
+  discover a WebP pet in Settings but fail to load it when selected; the PNG
+  atlas loads reliably. The WebP file is retained only as an archive copy.

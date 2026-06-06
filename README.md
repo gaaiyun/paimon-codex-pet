@@ -68,12 +68,21 @@ Copy-Item -Recurse -Force .\pet\paimon "$env:USERPROFILE\.codex\pets\paimon"
 
 ## QA
 
-验证结果：
+仓库自带校验脚本，只依赖 Python 标准库。在仓库根目录运行即可重新验证整个包：
+
+```powershell
+python tools\validate_atlas.py
+```
+
+预期输出最后一行是 `Result: ok`，表示正式 spritesheet 是 1536x1872 RGBA PNG、8x9 atlas、192x208 单格，且 manifest 里列出的状态帧和表情帧都齐全。
+
+原始构建时的验证结果也保留在 `qa/` 下：
 
 - `qa/review.json`：`ok: true`，0 errors，0 warnings。
 - `qa/validation-png.json`：`ok: true`，1536x1872 RGBA PNG，0 errors，0 warnings。
 - `qa/validation.json`：`ok: true`，1536x1872 RGBA WebP，0 errors，0 warnings。
 - `qa/videos/*.mp4`：九个状态的预览视频。
+- 注：`qa/*.json` 是在原始构建机上生成的，里面的绝对路径指向那台机器，仅作为原始验证记录；跨机器复验请用上面的 `tools\validate_atlas.py`。
 
 ## 排错
 

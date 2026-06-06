@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "frames_root": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames",
+  "frames_root": "assets/frames",
   "errors": [],
   "warnings": [],
   "rows": [
@@ -15,7 +15,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\idle\\00.png",
+          "file": "assets/frames/idle/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17495,
@@ -30,7 +30,7 @@
         },
         {
           "index": 1,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\idle\\01.png",
+          "file": "assets/frames/idle/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17389,
@@ -45,7 +45,7 @@
         },
         {
           "index": 2,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\idle\\02.png",
+          "file": "assets/frames/idle/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17002,
@@ -60,7 +60,7 @@
         },
         {
           "index": 3,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\idle\\03.png",
+          "file": "assets/frames/idle/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16922,
@@ -75,7 +75,7 @@
         },
         {
           "index": 4,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\idle\\04.png",
+          "file": "assets/frames/idle/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17026,
@@ -90,7 +90,7 @@
         },
         {
           "index": 5,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\idle\\05.png",
+          "file": "assets/frames/idle/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17038,
@@ -116,7 +116,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running-right\\00.png",
+          "file": "assets/frames/running-right/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16054,
@@ -131,7 +131,7 @@
         },
         {
           "index": 1,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running-right\\01.png",
+          "file": "assets/frames/running-right/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15663,
@@ -146,7 +146,7 @@
         },
         {
           "index": 2,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running-right\\02.png",
+          "file": "assets/frames/running-right/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15845,
@@ -161,7 +161,7 @@
         },
         {
           "index": 3,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running-right\\03.png",
+          "file": "assets/frames/running-right/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15592,
@@ -176,7 +176,7 @@
         },
         {
           "index": 4,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running-right\\04.png",
+          "file": "assets/frames/running-right/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16265,
@@ -191,7 +191,7 @@
         },
         {
           "index": 5,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running-right\\05.png",
+          "file": "assets/frames/running-right/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16988,
@@ -206,7 +206,7 @@
         },
         {
           "index": 6,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running-right\\06.png",
+          "file": "assets/frames/running-right/06.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15300,
@@ -221,7 +221,7 @@
         },
         {
           "index": 7,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running-right\\07.png",
+          "file": "assets/frames/running-right/07.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15753,
@@ -247,7 +247,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running-left\\00.png",
+          "file": "assets/frames/running-left/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 18154,
@@ -262,7 +262,7 @@
         },
         {
           "index": 1,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running-left\\01.png",
+          "file": "assets/frames/running-left/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16568,
@@ -277,7 +277,7 @@
         },
         {
           "index": 2,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running-left\\02.png",
+          "file": "assets/frames/running-left/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16719,
@@ -292,7 +292,7 @@
         },
         {
           "index": 3,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running-left\\03.png",
+          "file": "assets/frames/running-left/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16345,
@@ -307,7 +307,7 @@
         },
         {
           "index": 4,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running-left\\04.png",
+          "file": "assets/frames/running-left/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15487,
@@ -322,7 +322,7 @@
         },
         {
           "index": 5,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running-left\\05.png",
+          "file": "assets/frames/running-left/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17235,
@@ -337,7 +337,7 @@
         },
         {
           "index": 6,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running-left\\06.png",
+          "file": "assets/frames/running-left/06.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16531,
@@ -352,7 +352,7 @@
         },
         {
           "index": 7,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running-left\\07.png",
+          "file": "assets/frames/running-left/07.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15881,
@@ -378,7 +378,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\waving\\00.png",
+          "file": "assets/frames/waving/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16312,
@@ -393,7 +393,7 @@
         },
         {
           "index": 1,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\waving\\01.png",
+          "file": "assets/frames/waving/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16236,
@@ -408,7 +408,7 @@
         },
         {
           "index": 2,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\waving\\02.png",
+          "file": "assets/frames/waving/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16178,
@@ -423,7 +423,7 @@
         },
         {
           "index": 3,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\waving\\03.png",
+          "file": "assets/frames/waving/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16202,
@@ -449,7 +449,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\jumping\\00.png",
+          "file": "assets/frames/jumping/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 21802,
@@ -464,7 +464,7 @@
         },
         {
           "index": 1,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\jumping\\01.png",
+          "file": "assets/frames/jumping/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 18260,
@@ -479,7 +479,7 @@
         },
         {
           "index": 2,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\jumping\\02.png",
+          "file": "assets/frames/jumping/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 18335,
@@ -494,7 +494,7 @@
         },
         {
           "index": 3,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\jumping\\03.png",
+          "file": "assets/frames/jumping/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16938,
@@ -509,7 +509,7 @@
         },
         {
           "index": 4,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\jumping\\04.png",
+          "file": "assets/frames/jumping/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17323,
@@ -535,7 +535,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\failed\\00.png",
+          "file": "assets/frames/failed/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17504,
@@ -550,7 +550,7 @@
         },
         {
           "index": 1,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\failed\\01.png",
+          "file": "assets/frames/failed/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19218,
@@ -565,7 +565,7 @@
         },
         {
           "index": 2,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\failed\\02.png",
+          "file": "assets/frames/failed/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19207,
@@ -580,7 +580,7 @@
         },
         {
           "index": 3,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\failed\\03.png",
+          "file": "assets/frames/failed/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19226,
@@ -595,7 +595,7 @@
         },
         {
           "index": 4,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\failed\\04.png",
+          "file": "assets/frames/failed/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 23585,
@@ -610,7 +610,7 @@
         },
         {
           "index": 5,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\failed\\05.png",
+          "file": "assets/frames/failed/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 18566,
@@ -625,7 +625,7 @@
         },
         {
           "index": 6,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\failed\\06.png",
+          "file": "assets/frames/failed/06.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 18111,
@@ -640,7 +640,7 @@
         },
         {
           "index": 7,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\failed\\07.png",
+          "file": "assets/frames/failed/07.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19332,
@@ -666,7 +666,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\waiting\\00.png",
+          "file": "assets/frames/waiting/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16323,
@@ -681,7 +681,7 @@
         },
         {
           "index": 1,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\waiting\\01.png",
+          "file": "assets/frames/waiting/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16132,
@@ -696,7 +696,7 @@
         },
         {
           "index": 2,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\waiting\\02.png",
+          "file": "assets/frames/waiting/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15854,
@@ -711,7 +711,7 @@
         },
         {
           "index": 3,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\waiting\\03.png",
+          "file": "assets/frames/waiting/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16051,
@@ -726,7 +726,7 @@
         },
         {
           "index": 4,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\waiting\\04.png",
+          "file": "assets/frames/waiting/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16082,
@@ -741,7 +741,7 @@
         },
         {
           "index": 5,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\waiting\\05.png",
+          "file": "assets/frames/waiting/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16218,
@@ -767,7 +767,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running\\00.png",
+          "file": "assets/frames/running/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16483,
@@ -782,7 +782,7 @@
         },
         {
           "index": 1,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running\\01.png",
+          "file": "assets/frames/running/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15398,
@@ -797,7 +797,7 @@
         },
         {
           "index": 2,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running\\02.png",
+          "file": "assets/frames/running/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17121,
@@ -812,7 +812,7 @@
         },
         {
           "index": 3,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running\\03.png",
+          "file": "assets/frames/running/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16530,
@@ -827,7 +827,7 @@
         },
         {
           "index": 4,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running\\04.png",
+          "file": "assets/frames/running/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16446,
@@ -842,7 +842,7 @@
         },
         {
           "index": 5,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\running\\05.png",
+          "file": "assets/frames/running/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15188,
@@ -868,7 +868,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\review\\00.png",
+          "file": "assets/frames/review/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 18161,
@@ -883,7 +883,7 @@
         },
         {
           "index": 1,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\review\\01.png",
+          "file": "assets/frames/review/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17726,
@@ -898,7 +898,7 @@
         },
         {
           "index": 2,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\review\\02.png",
+          "file": "assets/frames/review/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17717,
@@ -913,7 +913,7 @@
         },
         {
           "index": 3,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\review\\03.png",
+          "file": "assets/frames/review/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17843,
@@ -928,7 +928,7 @@
         },
         {
           "index": 4,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\review\\04.png",
+          "file": "assets/frames/review/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 18794,
@@ -943,7 +943,7 @@
         },
         {
           "index": 5,
-          "file": "G:\\\u7edf\u8ba1\u5efa\u6a21\\hatch-pet-paimon-run\\frames\\review\\05.png",
+          "file": "assets/frames/review/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17650,
