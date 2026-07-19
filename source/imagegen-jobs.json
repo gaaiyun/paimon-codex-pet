@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "created_at": "2026-07-19T07:35:32.027967+00:00",
-  "run_dir": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719",
+  "created_at": "2026-07-19T10:41:50.405905+00:00",
+  "run_dir": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719",
   "primary_generation_skill": "$imagegen",
   "jobs": [
     {
@@ -20,13 +20,15 @@
       "generation_skill": "$imagegen",
       "requires_grounded_generation": true,
       "allow_prompt_only_generation": false,
-      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-6eb2dc63-70e2-4556-b140-78889281f5ec.png",
-      "completed_at": "2026-07-19T07:39:47Z"
+      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-ac21dd75-ead2-412e-9917-5a5a0bb83406.png",
+      "completed_at": "2026-07-19T11:23:37Z"
     },
     {
       "id": "idle",
       "kind": "row-strip",
       "status": "complete",
+      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-2f156662-2b89-4d7f-af60-01961f9350fb.png",
+      "completed_at": "2026-07-19T11:43:04Z",
       "prompt_file": "prompts/rows/idle.md",
       "retry_prompt_file": "prompts/row-retries/idle.md",
       "input_images": [
@@ -60,14 +62,14 @@
         "may_derive": false,
         "reason": "no deterministic derivation is configured for this state"
       },
-      "mirror_policy": {},
-      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-c00ee2c2-fe2d-4f23-947e-cb06184e15a8.png",
-      "completed_at": "2026-07-19T07:44:04Z"
+      "mirror_policy": {}
     },
     {
       "id": "running-right",
       "kind": "row-strip",
       "status": "complete",
+      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-60f9c21d-f971-4003-bc6d-09ee747bad32.png",
+      "completed_at": "2026-07-19T11:43:04Z",
       "prompt_file": "prompts/rows/running-right.md",
       "retry_prompt_file": "prompts/row-retries/running-right.md",
       "input_images": [
@@ -101,14 +103,14 @@
         "may_derive": false,
         "reason": "no deterministic derivation is configured for this state"
       },
-      "mirror_policy": {},
-      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-3aaa97e3-70e8-47e6-b46d-22c9a6b34c5b.png",
-      "completed_at": "2026-07-19T08:05:51Z"
+      "mirror_policy": {}
     },
     {
       "id": "running-left",
       "kind": "row-strip",
       "status": "complete",
+      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-3e98ba58-f076-44bf-851c-b7a8cfe55705.png",
+      "completed_at": "2026-07-19T11:43:04Z",
       "prompt_file": "prompts/rows/running-left.md",
       "retry_prompt_file": "prompts/row-retries/running-left.md",
       "input_images": [
@@ -157,15 +159,14 @@
         "derivation": "framewise-horizontal-mirror-preserving-order",
         "requires_explicit_approval": true,
         "fallback_generation_skill": "$imagegen"
-      },
-      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-9f9f713a-7619-4bd2-abd1-1777bbeecdec.png",
-      "completed_at": "2026-07-19T09:16:00Z",
-      "repair_note": "Regenerated the leftward gait with a locked large-head chibi ratio, consistent leg and boot anatomy, stable body scale, and coherent baseline."
+      }
     },
     {
       "id": "waving",
       "kind": "row-strip",
       "status": "complete",
+      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-8cfaa71b-86cc-4291-8f96-33a3ed3fea36.png",
+      "completed_at": "2026-07-19T11:43:04Z",
       "prompt_file": "prompts/rows/waving.md",
       "retry_prompt_file": "prompts/row-retries/waving.md",
       "input_images": [
@@ -199,14 +200,14 @@
         "may_derive": false,
         "reason": "state requires its own generated animation semantics"
       },
-      "mirror_policy": {},
-      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-b0685cf5-0d46-4991-9e82-4e38205e260c.png",
-      "completed_at": "2026-07-19T07:47:47Z"
+      "mirror_policy": {}
     },
     {
       "id": "jumping",
       "kind": "row-strip",
       "status": "complete",
+      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-ff12b0ab-7643-45ac-9331-6e9f0a5728bf.png",
+      "completed_at": "2026-07-19T11:43:04Z",
       "prompt_file": "prompts/rows/jumping.md",
       "retry_prompt_file": "prompts/row-retries/jumping.md",
       "input_images": [
@@ -240,14 +241,14 @@
         "may_derive": false,
         "reason": "state requires its own generated animation semantics"
       },
-      "mirror_policy": {},
-      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-aa705620-ab51-46a5-849b-15d86133c82d.png",
-      "completed_at": "2026-07-19T07:51:19Z"
+      "mirror_policy": {}
     },
     {
       "id": "failed",
       "kind": "row-strip",
       "status": "complete",
+      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-35157d2a-ea9a-49de-bbaa-d2abc6cd9082.png",
+      "completed_at": "2026-07-19T11:43:04Z",
       "prompt_file": "prompts/rows/failed.md",
       "retry_prompt_file": "prompts/row-retries/failed.md",
       "input_images": [
@@ -281,14 +282,14 @@
         "may_derive": false,
         "reason": "state requires its own generated animation semantics"
       },
-      "mirror_policy": {},
-      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-366fdf6b-8376-4f2c-8f28-07a70e1c25c7.png",
-      "completed_at": "2026-07-19T07:51:19Z"
+      "mirror_policy": {}
     },
     {
       "id": "waiting",
       "kind": "row-strip",
       "status": "complete",
+      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-8f745ba6-a88d-41f1-a7ee-2d84a856edf7.png",
+      "completed_at": "2026-07-19T11:43:04Z",
       "prompt_file": "prompts/rows/waiting.md",
       "retry_prompt_file": "prompts/row-retries/waiting.md",
       "input_images": [
@@ -322,14 +323,14 @@
         "may_derive": false,
         "reason": "state requires its own generated animation semantics"
       },
-      "mirror_policy": {},
-      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-30db70da-15c9-4234-9100-2db5a1dd068a.png",
-      "completed_at": "2026-07-19T07:57:21Z"
+      "mirror_policy": {}
     },
     {
       "id": "running",
       "kind": "row-strip",
       "status": "complete",
+      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-c9a91b55-ad31-492a-9e2a-34d4c3e633bd.png",
+      "completed_at": "2026-07-19T11:43:04Z",
       "prompt_file": "prompts/rows/running.md",
       "retry_prompt_file": "prompts/row-retries/running.md",
       "input_images": [
@@ -363,14 +364,14 @@
         "may_derive": false,
         "reason": "state requires its own generated animation semantics"
       },
-      "mirror_policy": {},
-      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-33363cbc-fef8-4dfb-8062-d84836ba1356.png",
-      "completed_at": "2026-07-19T07:57:21Z"
+      "mirror_policy": {}
     },
     {
       "id": "review",
       "kind": "row-strip",
       "status": "complete",
+      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-882b27b9-628f-4440-8ba6-1c89b2c2abbf.png",
+      "completed_at": "2026-07-19T11:43:04Z",
       "prompt_file": "prompts/rows/review.md",
       "retry_prompt_file": "prompts/row-retries/review.md",
       "input_images": [
@@ -404,9 +405,7 @@
         "may_derive": false,
         "reason": "state requires its own generated animation semantics"
       },
-      "mirror_policy": {},
-      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-7289ea1d-7c51-41d2-96b7-794468c2f9c5.png",
-      "completed_at": "2026-07-19T07:59:40Z"
+      "mirror_policy": {}
     }
   ]
 }

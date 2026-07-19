@@ -1,8 +1,8 @@
 {
   "pet_id": "paimon",
   "display_name": "Paimon",
-  "description": "A cute high-efficiency research and coding companion with glasses, coffee, and a tiny keyboard.",
-  "created_at": "2026-07-19T07:35:32.014814+00:00",
+  "description": "A wallpaper-matched chibi research companion racing between code and papers on a compact black-gold laptop.",
+  "created_at": "2026-07-19T10:41:50.392417+00:00",
   "atlas": {
     "columns": 8,
     "rows": 9,
@@ -179,13 +179,13 @@
   ],
   "references": [
     {
-      "path": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\references\\reference-01.png",
+      "path": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\references\\reference-01.png",
       "width": 2560,
       "height": 1440,
       "mode": "RGB",
       "format": "PNG",
       "source_path": "G:\\CodexDreamSkin\\assets\\paimon-research-half-rim-2560x1440.png",
-      "copied_path": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\references\\reference-01.png"
+      "copied_path": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\references\\reference-01.png"
     }
   ],
   "chroma_key": {
@@ -199,10 +199,10 @@
     "selection": "auto",
     "score": 225.18
   },
-  "pet_notes": "Consistent chibi Paimon-inspired research worker: white bob hair, star hair clip, clean gold halo with nothing on it, half-rim glasses, pencil in hair, black-gold compact keyboard, short closed black-gold travel cup secured in an integrated spill-proof holder on the keyboard rear-right corner; cute, goofy, efficient, writing papers and code. Never place the cup on the head, halo, hair, or in either hand.",
+  "pet_notes": "Wallpaper-matched big-head chibi Paimon research worker: head and hair occupy 55-60 percent of visible height; expressive large eyes, readable eyebrows and mouth, half-rim glasses, white bob hair, star clip, clean gold halo, pencil in hair; pearl-white cape and sleeves with cool-gray shadows, champagne-gold trim, graphite-black inner layer, absolutely no brown or ochre clothing; compact graphite-black champagne-gold laptop as the single main work prop, abstract code and chart marks on screen, two or three clipped paper pages as a secondary prop; cute, goofy, visibly overworked, writing code and papers; no floating keyboard, coffee cup, cup holder, or loose papers.",
   "style_preset": "sticker",
-  "style_notes": "Premium non-pixel cartoon sticker; pearl white, warm ivory, champagne gold, graphite black, tiny icy-cyan accent; no purple, pink, neon blue, text, UI, scenery, shadows, speed lines, loose particles, or soft effects.",
-  "style_contract": "Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `sticker`: Polished sticker mascot with bold clean shapes, crisp outline, flat colors, and minimal highlight detail. User style notes: Premium non-pixel cartoon sticker; pearl white, warm ivory, champagne gold, graphite black, tiny icy-cyan accent; no purple, pink, neon blue, text, UI, scenery, shadows, speed lines, loose particles, or soft effects..",
+  "style_notes": "Premium detailed non-pixel cartoon sticker aligned to the wallpaper: cute large head, small compact body and short symmetric legs, crisp expressive face at 192x208, pearl white dominant, bright champagne gold, graphite black, tiny icy-cyan screen accents; no purple, pink, neon blue, brown, ochre, readable text, full UI, scenery, shadows, speed lines, loose particles, glow, or soft effects.",
+  "style_contract": "Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `sticker`: Polished sticker mascot with bold clean shapes, crisp outline, flat colors, and minimal highlight detail. User style notes: Premium detailed non-pixel cartoon sticker aligned to the wallpaper: cute large head, small compact body and short symmetric legs, crisp expressive face at 192x208, pearl white dominant, bright champagne gold, graphite black, tiny icy-cyan screen accents; no purple, pink, neon blue, brown, ochre, readable text, full UI, scenery, shadows, speed lines, loose particles, glow, or soft effects..",
   "brand_name": "",
   "brand_brief": "",
   "brand_sources": [],

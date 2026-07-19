@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "frames_root": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan",
+  "frames_root": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames",
   "errors": [],
   "warnings": [],
   "rows": [
@@ -15,93 +15,93 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\idle\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\idle\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16181,
+          "nontransparent_pixels": 22706,
           "bbox": [
-            29,
             5,
-            163,
-            203
+            7,
+            187,
+            200
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 47
+          "chroma_adjacent_pixels": 69
         },
         {
           "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\idle\\01.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\idle\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16120,
+          "nontransparent_pixels": 23145,
           "bbox": [
-            29,
+            8,
             5,
-            163,
+            184,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 52
+          "chroma_adjacent_pixels": 75
         },
         {
           "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\idle\\02.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\idle\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15851,
+          "nontransparent_pixels": 23005,
           "bbox": [
-            30,
+            8,
             5,
-            162,
+            184,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 41
+          "chroma_adjacent_pixels": 81
         },
         {
           "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\idle\\03.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\idle\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15952,
+          "nontransparent_pixels": 23275,
           "bbox": [
-            29,
+            7,
             5,
-            162,
+            185,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 59
+          "chroma_adjacent_pixels": 69
         },
         {
           "index": 4,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\idle\\04.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\idle\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15976,
+          "nontransparent_pixels": 23531,
           "bbox": [
-            29,
             5,
-            162,
+            5,
+            186,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 63
+          "chroma_adjacent_pixels": 72
         },
         {
           "index": 5,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\idle\\05.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\idle\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16142,
+          "nontransparent_pixels": 22866,
           "bbox": [
-            29,
+            8,
             5,
-            163,
+            184,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 47
+          "chroma_adjacent_pixels": 70
         }
       ]
     },
@@ -116,123 +116,123 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-right\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running-right\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16749,
+          "nontransparent_pixels": 15852,
           "bbox": [
-            26,
+            29,
             5,
-            166,
+            162,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 139
+          "chroma_adjacent_pixels": 98
         },
         {
           "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-right\\01.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running-right\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16494,
+          "nontransparent_pixels": 16385,
           "bbox": [
-            26,
+            30,
             5,
-            166,
+            161,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 130
+          "chroma_adjacent_pixels": 110
         },
         {
           "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-right\\02.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running-right\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16864,
+          "nontransparent_pixels": 16451,
           "bbox": [
-            24,
+            28,
             5,
-            167,
+            163,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 134
+          "chroma_adjacent_pixels": 91
         },
         {
           "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-right\\03.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running-right\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16778,
+          "nontransparent_pixels": 16476,
           "bbox": [
-            23,
+            28,
             5,
-            169,
+            163,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 128
+          "chroma_adjacent_pixels": 87
         },
         {
           "index": 4,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-right\\04.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running-right\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16445,
+          "nontransparent_pixels": 16049,
           "bbox": [
-            25,
+            31,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 99
+        },
+        {
+          "index": 5,
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running-right\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16469,
+          "bbox": [
+            29,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 107
+        },
+        {
+          "index": 6,
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running-right\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16878,
+          "bbox": [
+            26,
             5,
             166,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 125
-        },
-        {
-          "index": 5,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-right\\05.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 16315,
-          "bbox": [
-            25,
-            5,
-            167,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 133
-        },
-        {
-          "index": 6,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-right\\06.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 16108,
-          "bbox": [
-            26,
-            5,
-            165,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 115
+          "chroma_adjacent_pixels": 103
         },
         {
           "index": 7,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-right\\07.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running-right\\07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16053,
+          "nontransparent_pixels": 15586,
           "bbox": [
-            27,
+            32,
             5,
-            165,
+            160,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 117
+          "chroma_adjacent_pixels": 66
         }
       ]
     },
@@ -247,123 +247,123 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-left\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running-left\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16814,
+          "nontransparent_pixels": 16317,
           "bbox": [
-            23,
+            30,
             5,
-            168,
+            161,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 143
+          "chroma_adjacent_pixels": 114
         },
         {
           "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-left\\01.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running-left\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16981,
+          "nontransparent_pixels": 15773,
           "bbox": [
-            23,
+            33,
             5,
-            169,
+            159,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 158
+          "chroma_adjacent_pixels": 116
         },
         {
           "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-left\\02.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running-left\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16599,
+          "nontransparent_pixels": 15397,
           "bbox": [
-            24,
+            34,
             5,
-            168,
+            158,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 133
+          "chroma_adjacent_pixels": 130
         },
         {
           "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-left\\03.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running-left\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16878,
+          "nontransparent_pixels": 15652,
           "bbox": [
-            22,
+            33,
             5,
-            170,
+            158,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 168
+          "chroma_adjacent_pixels": 92
         },
         {
           "index": 4,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-left\\04.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running-left\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16142,
+          "nontransparent_pixels": 14912,
           "bbox": [
-            24,
+            35,
             5,
-            167,
+            157,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 173
+          "chroma_adjacent_pixels": 101
         },
         {
           "index": 5,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-left\\05.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running-left\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16064,
+          "nontransparent_pixels": 16080,
           "bbox": [
-            26,
+            31,
             5,
-            166,
+            161,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 150
+          "chroma_adjacent_pixels": 119
         },
         {
           "index": 6,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-left\\06.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running-left\\06.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16658,
+          "nontransparent_pixels": 15747,
           "bbox": [
-            23,
+            33,
             5,
-            168,
+            159,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 165
+          "chroma_adjacent_pixels": 105
         },
         {
           "index": 7,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-left\\07.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running-left\\07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15846,
+          "nontransparent_pixels": 14847,
           "bbox": [
-            28,
+            39,
             5,
-            163,
+            153,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 133
+          "chroma_adjacent_pixels": 93
         }
       ]
     },
@@ -378,63 +378,63 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waving\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\waving\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16291,
+          "nontransparent_pixels": 20765,
           "bbox": [
-            28,
             5,
-            164,
-            203
+            13,
+            187,
+            195
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 26
+          "chroma_adjacent_pixels": 24
         },
         {
           "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waving\\01.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\waving\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16499,
+          "nontransparent_pixels": 22128,
           "bbox": [
-            28,
             5,
-            163,
-            203
+            9,
+            187,
+            199
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 31
+          "chroma_adjacent_pixels": 14
         },
         {
           "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waving\\02.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\waving\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17092,
+          "nontransparent_pixels": 22825,
           "bbox": [
-            27,
             5,
-            165,
-            203
+            9,
+            187,
+            199
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 45
+          "chroma_adjacent_pixels": 22
         },
         {
           "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waving\\03.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\waving\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16251,
+          "nontransparent_pixels": 22053,
           "bbox": [
-            28,
             5,
-            163,
-            203
+            8,
+            187,
+            199
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 37
+          "chroma_adjacent_pixels": 16
         }
       ]
     },
@@ -449,78 +449,78 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\jumping\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\jumping\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 21301,
+          "nontransparent_pixels": 21725,
           "bbox": [
-            12,
+            16,
             5,
-            179,
+            176,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 116
+          "chroma_adjacent_pixels": 91
         },
         {
           "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\jumping\\01.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\jumping\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 18690,
+          "nontransparent_pixels": 18228,
           "bbox": [
-            19,
+            24,
+            5,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 41
+        },
+        {
+          "index": 2,
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\jumping\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18590,
+          "bbox": [
+            20,
             5,
             172,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 94
-        },
-        {
-          "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\jumping\\02.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 18274,
-          "bbox": [
-            21,
-            5,
-            171,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 113
+          "chroma_adjacent_pixels": 26
         },
         {
           "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\jumping\\03.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\jumping\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17437,
+          "nontransparent_pixels": 18184,
           "bbox": [
-            22,
+            27,
             5,
-            169,
+            165,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 95
+          "chroma_adjacent_pixels": 31
         },
         {
           "index": 4,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\jumping\\04.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\jumping\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 21290,
+          "nontransparent_pixels": 17606,
           "bbox": [
-            12,
+            30,
             5,
-            179,
+            161,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 128
+          "chroma_adjacent_pixels": 34
         }
       ]
     },
@@ -535,40 +535,115 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\failed\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\failed\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 22703,
+          "nontransparent_pixels": 23085,
           "bbox": [
-            14,
+            7,
             5,
-            178,
+            185,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 186
+        },
+        {
+          "index": 1,
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\failed\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 22671,
+          "bbox": [
+            11,
+            5,
+            181,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 147
+        },
+        {
+          "index": 2,
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\failed\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 23068,
+          "bbox": [
+            10,
+            5,
+            182,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 161
+        },
+        {
+          "index": 3,
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\failed\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 23639,
+          "bbox": [
+            8,
+            5,
+            183,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 176
+        },
+        {
+          "index": 4,
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\failed\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 23652,
+          "bbox": [
+            6,
+            5,
+            185,
             203
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 189
         },
         {
-          "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\failed\\01.png",
+          "index": 5,
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\failed\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 23221,
+          "nontransparent_pixels": 21243,
           "bbox": [
-            15,
             5,
-            177,
+            15,
+            187,
+            192
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 199
+        },
+        {
+          "index": 6,
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\failed\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 23548,
+          "bbox": [
+            8,
+            5,
+            184,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 205
+          "chroma_adjacent_pixels": 173
         },
         {
-          "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\failed\\02.png",
+          "index": 7,
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\failed\\07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 23753,
+          "nontransparent_pixels": 22714,
           "bbox": [
             13,
             5,
@@ -576,82 +651,7 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 234
-        },
-        {
-          "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\failed\\03.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 24201,
-          "bbox": [
-            12,
-            5,
-            180,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 221
-        },
-        {
-          "index": 4,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\failed\\04.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 25397,
-          "bbox": [
-            5,
-            7,
-            187,
-            200
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 274
-        },
-        {
-          "index": 5,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\failed\\05.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 23874,
-          "bbox": [
-            5,
-            12,
-            187,
-            195
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 249
-        },
-        {
-          "index": 6,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\failed\\06.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 23970,
-          "bbox": [
-            5,
-            12,
-            187,
-            195
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 232
-        },
-        {
-          "index": 7,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\failed\\07.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 23362,
-          "bbox": [
-            10,
-            5,
-            181,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 239
+          "chroma_adjacent_pixels": 142
         }
       ]
     },
@@ -666,93 +666,93 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waiting\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\waiting\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15967,
+          "nontransparent_pixels": 22130,
           "bbox": [
-            30,
             5,
-            162,
-            203
+            8,
+            187,
+            200
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 51
+          "chroma_adjacent_pixels": 41
         },
         {
           "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waiting\\01.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\waiting\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16131,
+          "nontransparent_pixels": 21684,
           "bbox": [
-            29,
+            13,
             5,
-            162,
+            179,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 67
+          "chroma_adjacent_pixels": 70
         },
         {
           "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waiting\\02.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\waiting\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16287,
+          "nontransparent_pixels": 22858,
           "bbox": [
-            28,
+            9,
             5,
-            164,
+            182,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 48
+          "chroma_adjacent_pixels": 79
         },
         {
           "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waiting\\03.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\waiting\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16180,
+          "nontransparent_pixels": 22794,
           "bbox": [
-            28,
+            7,
             5,
-            163,
+            184,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 55
+          "chroma_adjacent_pixels": 87
         },
         {
           "index": 4,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waiting\\04.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\waiting\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16047,
+          "nontransparent_pixels": 22374,
           "bbox": [
-            29,
+            10,
             5,
-            162,
+            181,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 69
+          "chroma_adjacent_pixels": 50
         },
         {
           "index": 5,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waiting\\05.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\waiting\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16378,
+          "nontransparent_pixels": 22617,
           "bbox": [
-            28,
+            9,
             5,
-            163,
+            183,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 66
+          "chroma_adjacent_pixels": 65
         }
       ]
     },
@@ -767,93 +767,93 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16164,
+          "nontransparent_pixels": 23276,
           "bbox": [
-            29,
+            6,
             5,
-            163,
+            185,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 54
+          "chroma_adjacent_pixels": 88
         },
         {
           "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running\\01.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16365,
+          "nontransparent_pixels": 23033,
           "bbox": [
-            28,
+            6,
             5,
-            163,
+            185,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 54
+          "chroma_adjacent_pixels": 116
         },
         {
           "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running\\02.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16347,
+          "nontransparent_pixels": 23235,
           "bbox": [
-            28,
+            6,
             5,
-            164,
+            186,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 67
+          "chroma_adjacent_pixels": 115
         },
         {
           "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running\\03.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16415,
+          "nontransparent_pixels": 23642,
           "bbox": [
-            27,
+            6,
             5,
-            164,
+            185,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 63
+          "chroma_adjacent_pixels": 104
         },
         {
           "index": 4,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running\\04.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15834,
+          "nontransparent_pixels": 23185,
           "bbox": [
-            29,
+            7,
             5,
-            163,
+            185,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 50
+          "chroma_adjacent_pixels": 86
         },
         {
           "index": 5,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running\\05.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\running\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16657,
+          "nontransparent_pixels": 23327,
           "bbox": [
-            25,
             5,
-            166,
+            5,
+            186,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 61
+          "chroma_adjacent_pixels": 95
         }
       ]
     },
@@ -868,93 +868,93 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\review\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\review\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16566,
+          "nontransparent_pixels": 23324,
           "bbox": [
-            27,
             5,
-            165,
-            203
+            6,
+            187,
+            202
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 48
+          "chroma_adjacent_pixels": 100
         },
         {
           "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\review\\01.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\review\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17128,
+          "nontransparent_pixels": 23291,
           "bbox": [
-            25,
             5,
-            167,
-            203
+            5,
+            187,
+            202
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 66
+          "chroma_adjacent_pixels": 95
         },
         {
           "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\review\\02.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\review\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16317,
+          "nontransparent_pixels": 23309,
           "bbox": [
-            27,
+            7,
             5,
-            164,
+            185,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 49
+          "chroma_adjacent_pixels": 90
         },
         {
           "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\review\\03.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\review\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16819,
+          "nontransparent_pixels": 23010,
           "bbox": [
-            27,
+            6,
             5,
-            165,
+            186,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 57
+          "chroma_adjacent_pixels": 99
         },
         {
           "index": 4,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\review\\04.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\review\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16448,
+          "nontransparent_pixels": 22915,
           "bbox": [
-            27,
             5,
-            164,
+            5,
+            186,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 54
+          "chroma_adjacent_pixels": 108
         },
         {
           "index": 5,
-          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\review\\05.png",
+          "file": "G:\\CodexPetRuns\\paimon-wallpaper-v3-20260719\\frames\\review\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16436,
+          "nontransparent_pixels": 23447,
           "bbox": [
-            29,
             5,
-            163,
-            203
+            5,
+            187,
+            202
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 40
+          "chroma_adjacent_pixels": 107
         }
       ]
     }
