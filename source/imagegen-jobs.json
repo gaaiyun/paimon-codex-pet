@@ -158,8 +158,9 @@
         "requires_explicit_approval": true,
         "fallback_generation_skill": "$imagegen"
       },
-      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-63d2a30b-2519-4062-a478-31c237c32c03.png",
-      "completed_at": "2026-07-19T07:47:47Z"
+      "source_path": "G:\\codex-home\\generated_images\\019f7439-965e-74c0-93e9-a0dc17cda84f\\exec-9f9f713a-7619-4bd2-abd1-1777bbeecdec.png",
+      "completed_at": "2026-07-19T09:16:00Z",
+      "repair_note": "Regenerated the leftward gait with a locked large-head chibi ratio, consistent leg and boot anatomy, stable body scale, and coherent baseline."
     },
     {
       "id": "waving",

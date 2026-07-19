@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "frames_root": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames",
+  "frames_root": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan",
   "errors": [],
   "warnings": [],
   "rows": [
@@ -15,7 +15,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\idle\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\idle\\00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16181,
@@ -30,7 +30,7 @@
         },
         {
           "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\idle\\01.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\idle\\01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16120,
@@ -45,7 +45,7 @@
         },
         {
           "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\idle\\02.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\idle\\02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15851,
@@ -60,7 +60,7 @@
         },
         {
           "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\idle\\03.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\idle\\03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15952,
@@ -75,7 +75,7 @@
         },
         {
           "index": 4,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\idle\\04.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\idle\\04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15976,
@@ -90,7 +90,7 @@
         },
         {
           "index": 5,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\idle\\05.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\idle\\05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16142,
@@ -116,7 +116,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-right\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-right\\00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16749,
@@ -131,7 +131,7 @@
         },
         {
           "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-right\\01.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-right\\01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16494,
@@ -146,7 +146,7 @@
         },
         {
           "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-right\\02.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-right\\02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16864,
@@ -161,7 +161,7 @@
         },
         {
           "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-right\\03.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-right\\03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16778,
@@ -176,7 +176,7 @@
         },
         {
           "index": 4,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-right\\04.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-right\\04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16445,
@@ -191,7 +191,7 @@
         },
         {
           "index": 5,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-right\\05.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-right\\05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16315,
@@ -206,7 +206,7 @@
         },
         {
           "index": 6,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-right\\06.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-right\\06.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16108,
@@ -221,7 +221,7 @@
         },
         {
           "index": 7,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-right\\07.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-right\\07.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16053,
@@ -247,55 +247,25 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-left\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-left\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 18484,
+          "nontransparent_pixels": 16814,
           "bbox": [
-            22,
+            23,
             5,
-            170,
+            168,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 158
+          "chroma_adjacent_pixels": 143
         },
         {
           "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-left\\01.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-left\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 18098,
-          "bbox": [
-            21,
-            5,
-            170,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 171
-        },
-        {
-          "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-left\\02.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 18271,
-          "bbox": [
-            22,
-            5,
-            169,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 198
-        },
-        {
-          "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-left\\03.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 17981,
+          "nontransparent_pixels": 16981,
           "bbox": [
             23,
             5,
@@ -303,44 +273,14 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 192
+          "chroma_adjacent_pixels": 158
         },
         {
-          "index": 4,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-left\\04.png",
+          "index": 2,
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-left\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17472,
-          "bbox": [
-            24,
-            5,
-            167,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 166
-        },
-        {
-          "index": 5,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-left\\05.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 16914,
-          "bbox": [
-            27,
-            5,
-            164,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 166
-        },
-        {
-          "index": 6,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-left\\06.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 18370,
+          "nontransparent_pixels": 16599,
           "bbox": [
             24,
             5,
@@ -348,22 +288,82 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 202
+          "chroma_adjacent_pixels": 133
         },
         {
-          "index": 7,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-left\\07.png",
+          "index": 3,
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-left\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17166,
+          "nontransparent_pixels": 16878,
           "bbox": [
-            25,
+            22,
+            5,
+            170,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 168
+        },
+        {
+          "index": 4,
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-left\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16142,
+          "bbox": [
+            24,
             5,
             167,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 167
+          "chroma_adjacent_pixels": 173
+        },
+        {
+          "index": 5,
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-left\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16064,
+          "bbox": [
+            26,
+            5,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 150
+        },
+        {
+          "index": 6,
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-left\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16658,
+          "bbox": [
+            23,
+            5,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 165
+        },
+        {
+          "index": 7,
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running-left\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15846,
+          "bbox": [
+            28,
+            5,
+            163,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 133
         }
       ]
     },
@@ -378,7 +378,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waving\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waving\\00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16291,
@@ -393,7 +393,7 @@
         },
         {
           "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waving\\01.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waving\\01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16499,
@@ -408,7 +408,7 @@
         },
         {
           "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waving\\02.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waving\\02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17092,
@@ -423,7 +423,7 @@
         },
         {
           "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waving\\03.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waving\\03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16251,
@@ -449,7 +449,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\jumping\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\jumping\\00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 21301,
@@ -464,7 +464,7 @@
         },
         {
           "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\jumping\\01.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\jumping\\01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 18690,
@@ -479,7 +479,7 @@
         },
         {
           "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\jumping\\02.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\jumping\\02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 18274,
@@ -494,7 +494,7 @@
         },
         {
           "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\jumping\\03.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\jumping\\03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17437,
@@ -509,7 +509,7 @@
         },
         {
           "index": 4,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\jumping\\04.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\jumping\\04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 21290,
@@ -535,7 +535,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\failed\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\failed\\00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 22703,
@@ -550,7 +550,7 @@
         },
         {
           "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\failed\\01.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\failed\\01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 23221,
@@ -565,7 +565,7 @@
         },
         {
           "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\failed\\02.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\failed\\02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 23753,
@@ -580,7 +580,7 @@
         },
         {
           "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\failed\\03.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\failed\\03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 24201,
@@ -595,7 +595,7 @@
         },
         {
           "index": 4,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\failed\\04.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\failed\\04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 25397,
@@ -610,7 +610,7 @@
         },
         {
           "index": 5,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\failed\\05.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\failed\\05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 23874,
@@ -625,7 +625,7 @@
         },
         {
           "index": 6,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\failed\\06.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\failed\\06.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 23970,
@@ -640,7 +640,7 @@
         },
         {
           "index": 7,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\failed\\07.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\failed\\07.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 23362,
@@ -666,7 +666,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waiting\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waiting\\00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15967,
@@ -681,7 +681,7 @@
         },
         {
           "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waiting\\01.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waiting\\01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16131,
@@ -696,7 +696,7 @@
         },
         {
           "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waiting\\02.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waiting\\02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16287,
@@ -711,7 +711,7 @@
         },
         {
           "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waiting\\03.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waiting\\03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16180,
@@ -726,7 +726,7 @@
         },
         {
           "index": 4,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waiting\\04.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waiting\\04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16047,
@@ -741,7 +741,7 @@
         },
         {
           "index": 5,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waiting\\05.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\waiting\\05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16378,
@@ -767,7 +767,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running\\00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16164,
@@ -782,7 +782,7 @@
         },
         {
           "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running\\01.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running\\01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16365,
@@ -797,7 +797,7 @@
         },
         {
           "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running\\02.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running\\02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16347,
@@ -812,7 +812,7 @@
         },
         {
           "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running\\03.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running\\03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16415,
@@ -827,7 +827,7 @@
         },
         {
           "index": 4,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running\\04.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running\\04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15834,
@@ -842,7 +842,7 @@
         },
         {
           "index": 5,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running\\05.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\running\\05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16657,
@@ -868,7 +868,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\review\\00.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\review\\00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16566,
@@ -883,7 +883,7 @@
         },
         {
           "index": 1,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\review\\01.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\review\\01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17128,
@@ -898,7 +898,7 @@
         },
         {
           "index": 2,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\review\\02.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\review\\02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16317,
@@ -913,7 +913,7 @@
         },
         {
           "index": 3,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\review\\03.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\review\\03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16819,
@@ -928,7 +928,7 @@
         },
         {
           "index": 4,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\review\\04.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\review\\04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16448,
@@ -943,7 +943,7 @@
         },
         {
           "index": 5,
-          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\review\\05.png",
+          "file": "G:\\CodexPetRuns\\paimon-left-leg-fix-20260719\\frames-cyan\\review\\05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16436,

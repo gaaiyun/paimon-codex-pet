@@ -8,6 +8,8 @@ Identity: same pet in every frame: Consistent chibi Paimon-inspired research wor
 Style: Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `sticker`: Polished sticker mascot with bold clean shapes, crisp outline, flat colors, and minimal highlight detail. User style notes: Premium non-pixel cartoon sticker; pearl white, warm ivory, champagne gold, graphite black, tiny icy-cyan accent; no purple, pink, neon blue, text, UI, scenery, shadows, speed lines, loose particles, or soft effects..
 Animation continuity: keep apparent pet scale and baseline stable within the row unless the state itself intentionally changes vertical position, such as `jumping`. Move the pose within the slot instead of redrawing the pet larger or smaller frame to frame.
 
+Precision anatomy lock: keep the same large-head chibi ratio, torso length, hip height, thigh length, shin length, leg thickness, boot size, keyboard size, and overall character scale in all 8 frames. Frame 0 must not be larger than the remaining frames. Apparent leg-length changes may come only from knee bend and foreshortening, never anatomy drift. Keep a coherent running baseline and preserve the polished facial, glasses, hair, halo, keyboard, and cup-holder detail at pet scale.
+
 State action: Dragging-left loop: show directional movement to the left through body and limb poses only.
 
 State requirements:

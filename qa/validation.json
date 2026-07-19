@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\final\\spritesheet.webp",
+  "file": "G:\\github\\paimon-codex-pet\\pet\\paimon\\spritesheet.webp",
   "format": "WEBP",
   "mode": "RGBA",
   "width": 1536,
@@ -126,56 +126,56 @@
       "row": 2,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 18484
+      "nontransparent_pixels": 16814
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 18098
+      "nontransparent_pixels": 16981
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 18271
+      "nontransparent_pixels": 16599
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 17981
+      "nontransparent_pixels": 16878
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 17472
+      "nontransparent_pixels": 16142
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 16914
+      "nontransparent_pixels": 16064
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 18370
+      "nontransparent_pixels": 16658
     },
     {
       "state": "running-left",
       "row": 2,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 17166
+      "nontransparent_pixels": 15846
     },
     {
       "state": "waving",
