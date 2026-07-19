@@ -12,7 +12,7 @@
 
 ## 文件结构
 
-- `G:\CodexPetRuns\paimon-research-20260719\`：本轮生成源、prompt、frames、final 与 QA；不把大文件写入 C 盘。
+- `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\`：杯架修订后的生成源、prompt、frames、final 与 QA；不把大文件写入 C 盘。旧 run 保留为审计记录，不覆盖。
 - `G:\codex-home\pets\paimon\`：Codex 实际加载包，只保存 `pet.json` 与 `spritesheet.webp`。
 - `G:\CodexPetBackups\paimon-$stamp\`：覆盖前的可恢复备份与哈希记录，`$stamp = Get-Date -Format 'yyyyMMdd-HHmmss'`。
 - `G:\github\paimon-codex-pet\pet\paimon\`：可分发 Pet 包。
@@ -24,8 +24,8 @@
 ### Task 1: 建立可复现生成 run
 
 **Files:**
-- Create: `G:\CodexPetRuns\paimon-research-20260719\pet_request.json`
-- Create: `G:\CodexPetRuns\paimon-research-20260719\imagegen-jobs.json`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\pet_request.json`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\imagegen-jobs.json`
 - Read: `G:\CodexDreamSkin\assets\paimon-research-half-rim-2560x1440.png`
 
 - [ ] **Step 1: 确认参考图、仓库和本机包存在**
@@ -54,8 +54,8 @@ python 'G:\codex-home\skills\hatch-pet-installed\scripts\prepare_pet_run.py' `
   --display-name 'Paimon' `
   --description 'A cute high-efficiency research and coding companion with glasses, coffee, and a tiny keyboard.' `
   --reference 'G:\CodexDreamSkin\assets\paimon-research-half-rim-2560x1440.png' `
-  --output-dir 'G:\CodexPetRuns\paimon-research-20260719' `
-  --pet-notes 'Consistent chibi Paimon-inspired research worker: white bob hair, star hair clip, gold halo, half-rim glasses, pencil in hair, black-gold compact keyboard, closed black coffee cup mechanically held by the halo; cute, goofy, efficient, writing papers and code.' `
+  --output-dir 'G:\CodexPetRuns\paimon-research-v2-cupholder-20260719' `
+  --pet-notes 'Consistent chibi Paimon-inspired research worker: white bob hair, star hair clip, clean gold halo with nothing on it, half-rim glasses, pencil in hair, black-gold compact keyboard, short closed black-gold travel cup secured in an integrated spill-proof holder on the keyboard rear-right corner; cute, goofy, efficient, writing papers and code. Never place the cup on the head, halo, hair, or in either hand.' `
   --style-preset sticker `
   --style-notes 'Premium non-pixel cartoon sticker; pearl white, warm ivory, champagne gold, graphite black, tiny icy-cyan accent; no purple, pink, neon blue, text, UI, scenery, shadows, speed lines, loose particles, or soft effects.' `
   --chroma-key auto `
@@ -69,9 +69,9 @@ Expected: `pet_request.json`、`imagegen-jobs.json`、10 个 prompt 文件和 9 
 Run:
 
 ```powershell
-$jobs = Get-Content -Raw 'G:\CodexPetRuns\paimon-research-20260719\imagegen-jobs.json' | ConvertFrom-Json
+$jobs = Get-Content -Raw 'G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\imagegen-jobs.json' | ConvertFrom-Json
 if ($jobs.jobs.Count -ne 10) { throw 'Expected 10 image jobs' }
-$request = Get-Content -Raw 'G:\CodexPetRuns\paimon-research-20260719\pet_request.json' | ConvertFrom-Json
+$request = Get-Content -Raw 'G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\pet_request.json' | ConvertFrom-Json
 if (($request.rows.frames | Measure-Object -Sum).Sum -ne 57) { throw 'Expected 57 used frames' }
 ```
 
@@ -80,15 +80,15 @@ Expected: 无异常。
 ### Task 2: 锁定 canonical base
 
 **Files:**
-- Create: `G:\CodexPetRuns\paimon-research-20260719\decoded\base.png`
-- Create: `G:\CodexPetRuns\paimon-research-20260719\references\canonical-base.png`
-- Modify: `G:\CodexPetRuns\paimon-research-20260719\imagegen-jobs.json`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\decoded\base.png`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\references\canonical-base.png`
+- Modify: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\imagegen-jobs.json`
 
 - [ ] **Step 1: 生成 base**
 
 使用 `imagegen` 内置模式读取 `prompts\base-pet.md`，并把壁纸作为角色/材质参考图。输出必须是单个完整角色、平坦 chroma 背景、无场景和影子。
 
-Expected: 半框眼镜、铅笔、咖啡杯和键盘在缩小到 192×208 预览时仍清晰；无紫、粉、霓虹蓝。
+Expected: 半框眼镜、铅笔、键盘与右后角一体杯架在缩小到 192×208 预览时仍清晰；光环纯净，杯子不在头顶、光环、头发或手中；无紫、粉、霓虹蓝。
 
 - [ ] **Step 2: 固化 canonical identity**
 
@@ -99,14 +99,14 @@ Expected: 两个文件 SHA-256 相同，`base.status` 为 `complete`。
 ### Task 3: 生成身份与步态检查行
 
 **Files:**
-- Create: `G:\CodexPetRuns\paimon-research-20260719\decoded\idle.png`
-- Create: `G:\CodexPetRuns\paimon-research-20260719\decoded\running-right.png`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\decoded\idle.png`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\decoded\running-right.png`
 
 - [ ] **Step 1: 分别生成 `idle` 与 `running-right`**
 
 每个 worker 只处理一行，读取对应 prompt，并同时附加 `references\canonical-base.png` 与该状态同名的 layout guide（此处分别为 `idle.png` 和 `running-right.png`）。最多同时运行两个生成 worker。
 
-Expected: `idle` 恰好 6 个姿态，`running-right` 恰好 8 个向右步态；角色、眼镜、铅笔、咖啡杯和键盘一致，无布局线、裁切或游离特效。
+Expected: `idle` 恰好 6 个姿态，`running-right` 恰好 8 个向右步态；角色、眼镜、铅笔、键盘和右后角杯架一致，杯子不离开杯架，无布局线、裁切或游离特效。
 
 - [ ] **Step 2: 记录两行完成状态**
 
@@ -116,20 +116,20 @@ Expected: 两行 `status=complete` 且目标文件存在。
 
 - [ ] **Step 3: 决定左跑生成策略**
 
-由于铅笔、眼镜细节和咖啡杯结构具有方向性，`running-left` 独立生成，不镜像 `running-right`。
+由于铅笔、眼镜细节和键盘右后角杯架具有方向性，`running-left` 独立生成，不镜像 `running-right`。
 
 Expected: `running-left.derivation_policy` 保持生成路径，不调用镜像脚本。
 
 ### Task 4: 生成剩余 7 个状态行
 
 **Files:**
-- Create: `G:\CodexPetRuns\paimon-research-20260719\decoded\running-left.png`
-- Create: `G:\CodexPetRuns\paimon-research-20260719\decoded\waving.png`
-- Create: `G:\CodexPetRuns\paimon-research-20260719\decoded\jumping.png`
-- Create: `G:\CodexPetRuns\paimon-research-20260719\decoded\failed.png`
-- Create: `G:\CodexPetRuns\paimon-research-20260719\decoded\waiting.png`
-- Create: `G:\CodexPetRuns\paimon-research-20260719\decoded\running.png`
-- Create: `G:\CodexPetRuns\paimon-research-20260719\decoded\review.png`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\decoded\running-left.png`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\decoded\waving.png`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\decoded\jumping.png`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\decoded\failed.png`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\decoded\waiting.png`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\decoded\running.png`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\decoded\review.png`
 
 - [ ] **Step 1: 按最多两个并发 worker 生成所有行**
 
@@ -146,12 +146,12 @@ Expected: 10 个 jobs 全部 `complete`，且每个生成行都存在 canonical 
 ### Task 5: 确定性合成与视觉 QA
 
 **Files:**
-- Create: `G:\CodexPetRuns\paimon-research-20260719\frames\`
-- Create: `G:\CodexPetRuns\paimon-research-20260719\final\spritesheet.webp`
-- Create: `G:\CodexPetRuns\paimon-research-20260719\final\validation.json`
-- Create: `G:\CodexPetRuns\paimon-research-20260719\qa\contact-sheet.png`
-- Create: `G:\CodexPetRuns\paimon-research-20260719\qa\previews\*.gif`
-- Create: `G:\CodexPetRuns\paimon-research-20260719\qa\review.json`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\frames\`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\final\spritesheet.webp`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\final\validation.json`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\qa\contact-sheet.png`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\qa\previews\*.gif`
+- Create: `G:\CodexPetRuns\paimon-research-v2-cupholder-20260719\qa\review.json`
 
 - [ ] **Step 1: 提取并检查 57 个单帧**
 
@@ -159,7 +159,7 @@ Run:
 
 ```powershell
 $skill='G:\codex-home\skills\hatch-pet-installed\scripts'
-$run='G:\CodexPetRuns\paimon-research-20260719'
+$run='G:\CodexPetRuns\paimon-research-v2-cupholder-20260719'
 python "$skill\extract_strip_frames.py" --decoded-dir "$run\decoded" --output-dir "$run\frames" --states all --method auto
 python "$skill\inspect_frames.py" --frames-root "$run\frames" --json-out "$run\qa\review.json" --require-components
 ```
