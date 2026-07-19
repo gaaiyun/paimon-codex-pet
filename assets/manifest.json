@@ -2,7 +2,7 @@
   "schema": 1,
   "loadable_pet": {
     "manifest": "pet/paimon/pet.json",
-    "spritesheet": "pet/paimon/spritesheet.png",
+    "spritesheet": "pet/paimon/spritesheet.webp",
     "atlas": {
       "width": 1536,
       "height": 1872,

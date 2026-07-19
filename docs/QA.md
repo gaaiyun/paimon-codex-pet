@@ -1,35 +1,35 @@
 # QA Notes
 
-The package passed atlas validation and a visual contact-sheet check before release.
+当前正式包使用 `pet/paimon/spritesheet.webp`。PNG 与 `qa/videos/` 只保留为 v1 历史记录，不参与本版加载或验收。
 
-## Validated files
+## 本版验证结果
 
-- Loadable manifest: `pet/paimon/pet.json`
-- Loadable spritesheet: `pet/paimon/spritesheet.png`
-- Archived WebP spritesheet: `pet/paimon/spritesheet.webp`
-- Contact sheet: `qa/contact-sheet.png`
-- Per-frame report: `qa/review.json`
-- PNG atlas validation: `qa/validation-png.json`
-- WebP atlas validation: `qa/validation.json`
-- State preview videos: `qa/videos/*.mp4`
+- Format: WebP / RGBA
+- Dimensions: 1536×1872
+- Grid: 8×9
+- Cell: 192×208
+- Used frames: 57
+- Transparent RGB residue: 0
+- Frame inspection: 0 errors, 0 warnings
+- Atlas validation: 0 errors, 0 warnings
 
-The `qa/*.json` reports were produced on the original build machine, so the
-absolute paths inside them point at that machine. They are kept as a record of
-the original validation run. To re-validate the package on any machine, use the
-bundled checker instead:
+对应文件：
+
+- `qa/review.json`
+- `qa/validation.json`
+- `qa/contact-sheet.png`
+- `qa/previews/*.gif`
+
+## 复验
 
 ```powershell
-python tools\validate_atlas.py
+python .\tools\validate_atlas.py
 ```
 
-It confirms the spritesheet is a 1536x1872 RGBA PNG laid out as an 8x9 atlas of
-192x208 cells, and that every extracted frame and expression listed in
-`assets/manifest.json` is present. Expected output ends with `Result: ok`.
+预期最后一行：
 
-## Design choices worth keeping
+```text
+Result: ok
+```
 
-- `running-left` is its own row, not a horizontal mirror of `running-right`,
-  because the character has side-specific details that look wrong when flipped.
-- The active spritesheet is PNG rather than WebP. Some Codex desktop builds can
-  discover a WebP pet in Settings but fail to load it when selected; the PNG
-  atlas loads reliably. The WebP file is retained only as an archive copy.
+视觉检查重点是九个状态中的脸型、半框眼镜、发间铅笔、纯净光环、黑金键盘和键盘右后角杯架保持一致。播放速度由 Codex 桌面应用控制，不在 Pet 文件里修改。

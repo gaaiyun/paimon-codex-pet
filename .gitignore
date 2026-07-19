@@ -4,3 +4,6 @@ Thumbs.db
 # Local scratch output
 tmp/
 *.log
+__pycache__/
+*.pyc
+assets/frames/frames-manifest.json

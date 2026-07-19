@@ -5,13 +5,12 @@ Checks that the loadable spritesheet matches the atlas spec recorded in
 assets/manifest.json, and that the extracted single frames under
 assets/frames/ match the per-state frame counts the manifest declares.
 
-Runs with the Python standard library alone. If Pillow is installed it is
-used for a stricter check of the PNG mode; otherwise the script reads the
-PNG header directly, so it still works on a clean machine.
+PNG validation can run with the Python standard library alone. WebP validation
+uses Pillow, which is available in the Codex workspace runtime.
 
 Usage:
     python tools/validate_atlas.py            # validate the repo package
-    python tools/validate_atlas.py PATH.png   # validate a specific spritesheet
+    python tools/validate_atlas.py PATH       # validate a specific PNG or WebP
 
 Exit code is 0 when everything passes and 1 when any check fails.
 """
@@ -23,12 +22,19 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 MANIFEST_PATH = REPO_ROOT / "assets" / "manifest.json"
+PET_MANIFEST_PATH = REPO_ROOT / "pet" / "paimon" / "pet.json"
 
 OK = "[OK]"
 FAIL = "[FAIL]"
 
 # PNG color type 6 is truecolor with alpha, i.e. RGBA.
 PNG_COLOR_TYPE_RGBA = 6
+
+
+def default_spritesheet_path():
+    """Resolve the loadable spritesheet declared by the pet manifest."""
+    pet_manifest = json.loads(PET_MANIFEST_PATH.read_text(encoding="utf-8"))
+    return PET_MANIFEST_PATH.parent / pet_manifest["spritesheetPath"]
 
 
 def read_png_header(path):
@@ -56,6 +62,21 @@ def describe_mode(path):
         return image.mode
 
 
+def read_image_info(path):
+    """Return (width, height, mode, format) for a supported spritesheet."""
+    try:
+        from PIL import Image
+    except ImportError:
+        if path.suffix.lower() != ".png":
+            raise ValueError("Pillow is required to validate WebP spritesheets")
+        width, height, color_type = read_png_header(path)
+        mode = "RGBA" if color_type == PNG_COLOR_TYPE_RGBA else "type-%d" % color_type
+        return width, height, mode, "PNG"
+
+    with Image.open(path) as image:
+        return image.width, image.height, image.mode, image.format
+
+
 def validate(spritesheet_path):
     manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
     atlas = manifest["loadable_pet"]["atlas"]
@@ -65,18 +86,16 @@ def validate(spritesheet_path):
     errors = []
     checks = []
 
-    # 1. Spritesheet exists and is a readable PNG of the expected size and mode.
+    # 1. Spritesheet exists and is a readable transparent PNG or WebP.
     if not spritesheet_path.is_file():
         print("%s spritesheet not found: %s" % (FAIL, spritesheet_path))
         return False
 
     try:
-        width, height, color_type = read_png_header(spritesheet_path)
+        width, height, mode, image_format = read_image_info(spritesheet_path)
     except ValueError as exc:
-        print("%s cannot read PNG header (%s): %s" % (FAIL, exc, spritesheet_path))
-        print("       the loadable spritesheet must be pet/paimon/spritesheet.png")
+        print("%s cannot read spritesheet (%s): %s" % (FAIL, exc, spritesheet_path))
         return False
-    mode = describe_mode(spritesheet_path)
 
     if (width, height) == (expected_width, expected_height):
         checks.append("dimensions %dx%d" % (width, height))
@@ -86,10 +105,15 @@ def validate(spritesheet_path):
             % (width, height, expected_width, expected_height)
         )
 
-    if color_type == PNG_COLOR_TYPE_RGBA:
+    if image_format in {"PNG", "WEBP"}:
+        checks.append("%s format" % image_format)
+    else:
+        errors.append("format %s, expected PNG or WEBP" % image_format)
+
+    if mode == "RGBA":
         checks.append("RGBA color")
     else:
-        errors.append("PNG color type %d, expected 6 (RGBA); reported mode %s" % (color_type, mode))
+        errors.append("mode %s, expected RGBA" % mode)
 
     # 2. Atlas cell geometry is internally consistent.
     if atlas["columns"] * atlas["cell_width"] == expected_width:
@@ -143,7 +167,7 @@ def main():
     if len(sys.argv) > 1:
         spritesheet_path = Path(sys.argv[1]).expanduser().resolve()
     else:
-        spritesheet_path = REPO_ROOT / "pet" / "paimon" / "spritesheet.png"
+        spritesheet_path = default_spritesheet_path()
 
     print("Validating: %s" % spritesheet_path)
     passed = validate(spritesheet_path)

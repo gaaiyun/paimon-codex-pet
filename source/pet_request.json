@@ -1,8 +1,8 @@
 {
   "pet_id": "paimon",
   "display_name": "Paimon",
-  "description": "A tiny Codex digital pet inspired by Paimon, simplified into a compact chibi companion.",
-  "created_at": "2026-05-02T07:01:37.466056+00:00",
+  "description": "A cute high-efficiency research and coding companion with glasses, coffee, and a tiny keyboard.",
+  "created_at": "2026-07-19T07:35:32.014814+00:00",
   "atlas": {
     "columns": 8,
     "rows": 9,
@@ -16,55 +16,55 @@
       "state": "idle",
       "row": 0,
       "frames": 6,
-      "purpose": "neutral breathing/blinking loop"
+      "purpose": "calm resting, breathing, and blinking loop"
     },
     {
       "state": "running-right",
       "row": 1,
       "frames": 8,
-      "purpose": "rightward locomotion loop"
+      "purpose": "rightward drag movement loop"
     },
     {
       "state": "running-left",
       "row": 2,
       "frames": 8,
-      "purpose": "leftward locomotion loop"
+      "purpose": "leftward drag movement loop"
     },
     {
       "state": "waving",
       "row": 3,
       "frames": 4,
-      "purpose": "greeting gesture with raised wave and return"
+      "purpose": "greeting or attention gesture"
     },
     {
       "state": "jumping",
       "row": 4,
       "frames": 5,
-      "purpose": "anticipation, lift, peak, descent, settle"
+      "purpose": "hover or playful jump"
     },
     {
       "state": "failed",
       "row": 5,
       "frames": 8,
-      "purpose": "sad, failed, or deflated reaction"
+      "purpose": "blocked, failed, or cancelled reaction"
     },
     {
       "state": "waiting",
       "row": 6,
       "frames": 6,
-      "purpose": "patient waiting loop with small motion"
+      "purpose": "waiting for approval, help, or user input"
     },
     {
       "state": "running",
       "row": 7,
       "frames": 6,
-      "purpose": "generic in-place running loop"
+      "purpose": "active task work or processing"
     },
     {
       "state": "review",
       "row": 8,
       "frames": 6,
-      "purpose": "focused inspecting or review loop"
+      "purpose": "ready or completed output review"
     }
   ],
   "layout_guides": [
@@ -177,30 +177,35 @@
       "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
     }
   ],
-  "references": [],
+  "references": [
+    {
+      "path": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\references\\reference-01.png",
+      "width": 2560,
+      "height": 1440,
+      "mode": "RGB",
+      "format": "PNG",
+      "source_path": "G:\\CodexDreamSkin\\assets\\paimon-research-half-rim-2560x1440.png",
+      "copied_path": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\references\\reference-01.png"
+    }
+  ],
   "chroma_key": {
-    "hex": "#FF00FF",
+    "hex": "#00FFFF",
     "rgb": [
-      255,
       0,
+      255,
       255
     ],
-    "name": "magenta",
-    "selection": "fallback"
+    "name": "cyan",
+    "selection": "auto",
+    "score": 225.18
   },
-  "pet_notes": "A tiny floating chibi companion inspired by Paimon from Genshin Impact: white bobbed hair, small golden halo-like crown, star-shaped hair accents, navy-and-white outfit with gold details, cheerful expressive face, tiny limbs, compact readable silhouette. Adapt into Codex digital pet style, not polished anime key art.",
-  "style_notes": "Codex digital pet sprite style: pixel-art-adjacent, chunky small mascot, thick dark 1-2 px outline, visible stepped edges, limited palette, flat cel shading, transparent-ready chroma-key background, no text, no UI, no shadows, no detached sparkles.",
-  "house_style": "Codex digital pet sprite style: pixel-art-adjacent low-resolution mascot sprite, compact chibi proportions, chunky whole-body silhouette, thick dark 1-2 px outline, visible stepped/pixel edges, limited palette, flat cel shading with at most one small highlight and one shadow step, simple readable face, tiny limbs, and no detail that disappears at 192x208. Avoid polished illustration, painterly rendering, anime key art, 3D render, vector app-icon polish, glossy lighting, soft gradients, realistic fur or material texture, anti-aliased high-detail edges, and complex tiny accessories.",
-  "primary_generation_skill": "$imagegen",
-  "canonical_identity_reference": {
-    "path": "references\\canonical-base.png",
-    "source_job": "base",
-    "sha256": "80afac6631ab3e2b82239590a45c8b2360c4847944c2bda3eeb57c60a49b13bd",
-    "metadata": {
-      "width": 1203,
-      "height": 1307,
-      "mode": "RGB",
-      "format": "PNG"
-    }
-  }
+  "pet_notes": "Consistent chibi Paimon-inspired research worker: white bob hair, star hair clip, clean gold halo with nothing on it, half-rim glasses, pencil in hair, black-gold compact keyboard, short closed black-gold travel cup secured in an integrated spill-proof holder on the keyboard rear-right corner; cute, goofy, efficient, writing papers and code. Never place the cup on the head, halo, hair, or in either hand.",
+  "style_preset": "sticker",
+  "style_notes": "Premium non-pixel cartoon sticker; pearl white, warm ivory, champagne gold, graphite black, tiny icy-cyan accent; no purple, pink, neon blue, text, UI, scenery, shadows, speed lines, loose particles, or soft effects.",
+  "style_contract": "Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `sticker`: Polished sticker mascot with bold clean shapes, crisp outline, flat colors, and minimal highlight detail. User style notes: Premium non-pixel cartoon sticker; pearl white, warm ivory, champagne gold, graphite black, tiny icy-cyan accent; no purple, pink, neon blue, text, UI, scenery, shadows, speed lines, loose particles, or soft effects..",
+  "brand_name": "",
+  "brand_brief": "",
+  "brand_sources": [],
+  "pet_safe_style": "Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction.",
+  "primary_generation_skill": "$imagegen"
 }

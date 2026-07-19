@@ -1,11 +1,9 @@
 {
   "ok": true,
-  "spritesheet": "pet/paimon/spritesheet.png",
-  "spritesheet_archive": "pet/paimon/spritesheet.webp",
-  "validation_png": "qa/validation-png.json",
-  "validation_webp": "qa/validation.json",
+  "spritesheet": "pet/paimon/spritesheet.webp",
+  "validation": "qa/validation.json",
   "contact_sheet": "qa/contact-sheet.png",
   "review": "qa/review.json",
-  "videos": "qa/videos",
+  "previews": "qa/previews",
   "package": "pet/paimon"
 }

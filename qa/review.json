@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "frames_root": "assets/frames",
+  "frames_root": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames",
   "errors": [],
   "warnings": [],
   "rows": [
@@ -15,85 +15,85 @@
       "frames": [
         {
           "index": 0,
-          "file": "assets/frames/idle/00.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\idle\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17495,
+          "nontransparent_pixels": 16181,
           "bbox": [
-            27,
+            29,
             5,
-            165,
+            163,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 153
+          "chroma_adjacent_pixels": 47
         },
         {
           "index": 1,
-          "file": "assets/frames/idle/01.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\idle\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17389,
+          "nontransparent_pixels": 16120,
           "bbox": [
-            27,
+            29,
             5,
-            164,
+            163,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 174
+          "chroma_adjacent_pixels": 52
         },
         {
           "index": 2,
-          "file": "assets/frames/idle/02.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\idle\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17002,
+          "nontransparent_pixels": 15851,
           "bbox": [
-            29,
+            30,
             5,
-            163,
+            162,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 182
+          "chroma_adjacent_pixels": 41
         },
         {
           "index": 3,
-          "file": "assets/frames/idle/03.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\idle\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16922,
+          "nontransparent_pixels": 15952,
           "bbox": [
-            30,
+            29,
             5,
             162,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 159
+          "chroma_adjacent_pixels": 59
         },
         {
           "index": 4,
-          "file": "assets/frames/idle/04.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\idle\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17026,
+          "nontransparent_pixels": 15976,
           "bbox": [
-            30,
+            29,
             5,
             162,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 194
+          "chroma_adjacent_pixels": 63
         },
         {
           "index": 5,
-          "file": "assets/frames/idle/05.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\idle\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17038,
+          "nontransparent_pixels": 16142,
           "bbox": [
             29,
             5,
@@ -101,7 +101,7 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 170
+          "chroma_adjacent_pixels": 47
         }
       ]
     },
@@ -116,85 +116,100 @@
       "frames": [
         {
           "index": 0,
-          "file": "assets/frames/running-right/00.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-right\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16054,
+          "nontransparent_pixels": 16749,
           "bbox": [
-            28,
+            26,
             5,
-            164,
+            166,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 261
+          "chroma_adjacent_pixels": 139
         },
         {
           "index": 1,
-          "file": "assets/frames/running-right/01.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-right\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15663,
+          "nontransparent_pixels": 16494,
           "bbox": [
-            31,
+            26,
             5,
-            161,
+            166,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 216
+          "chroma_adjacent_pixels": 130
         },
         {
           "index": 2,
-          "file": "assets/frames/running-right/02.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-right\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15845,
+          "nontransparent_pixels": 16864,
           "bbox": [
-            27,
+            24,
             5,
-            164,
+            167,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 224
+          "chroma_adjacent_pixels": 134
         },
         {
           "index": 3,
-          "file": "assets/frames/running-right/03.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-right\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15592,
+          "nontransparent_pixels": 16778,
           "bbox": [
-            30,
+            23,
             5,
-            162,
+            169,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 272
+          "chroma_adjacent_pixels": 128
         },
         {
           "index": 4,
-          "file": "assets/frames/running-right/04.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-right\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16265,
+          "nontransparent_pixels": 16445,
           "bbox": [
-            29,
+            25,
             5,
-            162,
+            166,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 297
+          "chroma_adjacent_pixels": 125
         },
         {
           "index": 5,
-          "file": "assets/frames/running-right/05.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-right\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16988,
+          "nontransparent_pixels": 16315,
+          "bbox": [
+            25,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 133
+        },
+        {
+          "index": 6,
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-right\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16108,
           "bbox": [
             26,
             5,
@@ -202,37 +217,22 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 303
-        },
-        {
-          "index": 6,
-          "file": "assets/frames/running-right/06.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 15300,
-          "bbox": [
-            31,
-            5,
-            160,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 253
+          "chroma_adjacent_pixels": 115
         },
         {
           "index": 7,
-          "file": "assets/frames/running-right/07.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-right\\07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15753,
+          "nontransparent_pixels": 16053,
           "bbox": [
-            30,
+            27,
             5,
-            162,
+            165,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 244
+          "chroma_adjacent_pixels": 117
         }
       ]
     },
@@ -247,123 +247,123 @@
       "frames": [
         {
           "index": 0,
-          "file": "assets/frames/running-left/00.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-left\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 18154,
+          "nontransparent_pixels": 18484,
           "bbox": [
-            16,
+            22,
             5,
-            175,
+            170,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 346
+          "chroma_adjacent_pixels": 158
         },
         {
           "index": 1,
-          "file": "assets/frames/running-left/01.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-left\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16568,
+          "nontransparent_pixels": 18098,
           "bbox": [
-            25,
+            21,
             5,
-            166,
+            170,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 273
+          "chroma_adjacent_pixels": 171
         },
         {
           "index": 2,
-          "file": "assets/frames/running-left/02.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-left\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16719,
+          "nontransparent_pixels": 18271,
           "bbox": [
-            28,
+            22,
+            5,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 198
+        },
+        {
+          "index": 3,
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-left\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17981,
+          "bbox": [
+            23,
+            5,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 192
+        },
+        {
+          "index": 4,
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-left\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17472,
+          "bbox": [
+            24,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 166
+        },
+        {
+          "index": 5,
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-left\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16914,
+          "bbox": [
+            27,
             5,
             164,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 319
-        },
-        {
-          "index": 3,
-          "file": "assets/frames/running-left/03.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 16345,
-          "bbox": [
-            29,
-            5,
-            162,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 261
-        },
-        {
-          "index": 4,
-          "file": "assets/frames/running-left/04.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 15487,
-          "bbox": [
-            31,
-            5,
-            160,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 322
-        },
-        {
-          "index": 5,
-          "file": "assets/frames/running-left/05.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 17235,
-          "bbox": [
-            25,
-            5,
-            166,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 297
+          "chroma_adjacent_pixels": 166
         },
         {
           "index": 6,
-          "file": "assets/frames/running-left/06.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-left\\06.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16531,
+          "nontransparent_pixels": 18370,
           "bbox": [
-            29,
+            24,
             5,
-            163,
+            168,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 313
+          "chroma_adjacent_pixels": 202
         },
         {
           "index": 7,
-          "file": "assets/frames/running-left/07.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running-left\\07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15881,
+          "nontransparent_pixels": 17166,
           "bbox": [
-            30,
+            25,
             5,
-            162,
+            167,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 301
+          "chroma_adjacent_pixels": 167
         }
       ]
     },
@@ -378,63 +378,63 @@
       "frames": [
         {
           "index": 0,
-          "file": "assets/frames/waving/00.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waving\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16312,
+          "nontransparent_pixels": 16291,
           "bbox": [
-            33,
+            28,
             5,
-            159,
+            164,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 110
+          "chroma_adjacent_pixels": 26
         },
         {
           "index": 1,
-          "file": "assets/frames/waving/01.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waving\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16236,
+          "nontransparent_pixels": 16499,
           "bbox": [
-            33,
+            28,
             5,
-            159,
+            163,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 105
+          "chroma_adjacent_pixels": 31
         },
         {
           "index": 2,
-          "file": "assets/frames/waving/02.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waving\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16178,
+          "nontransparent_pixels": 17092,
           "bbox": [
-            33,
+            27,
             5,
-            159,
+            165,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 92
+          "chroma_adjacent_pixels": 45
         },
         {
           "index": 3,
-          "file": "assets/frames/waving/03.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waving\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16202,
+          "nontransparent_pixels": 16251,
           "bbox": [
-            33,
+            28,
             5,
-            158,
+            163,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 124
+          "chroma_adjacent_pixels": 37
         }
       ]
     },
@@ -449,78 +449,78 @@
       "frames": [
         {
           "index": 0,
-          "file": "assets/frames/jumping/00.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\jumping\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 21802,
+          "nontransparent_pixels": 21301,
           "bbox": [
+            12,
             5,
-            9,
-            187,
-            198
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 287
-        },
-        {
-          "index": 1,
-          "file": "assets/frames/jumping/01.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 18260,
-          "bbox": [
-            22,
-            5,
-            170,
+            179,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 283
+          "chroma_adjacent_pixels": 116
+        },
+        {
+          "index": 1,
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\jumping\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18690,
+          "bbox": [
+            19,
+            5,
+            172,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 94
         },
         {
           "index": 2,
-          "file": "assets/frames/jumping/02.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\jumping\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 18335,
+          "nontransparent_pixels": 18274,
           "bbox": [
-            20,
+            21,
             5,
             171,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 197
+          "chroma_adjacent_pixels": 113
         },
         {
           "index": 3,
-          "file": "assets/frames/jumping/03.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\jumping\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16938,
+          "nontransparent_pixels": 17437,
           "bbox": [
-            27,
+            22,
             5,
-            165,
+            169,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 210
+          "chroma_adjacent_pixels": 95
         },
         {
           "index": 4,
-          "file": "assets/frames/jumping/04.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\jumping\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17323,
+          "nontransparent_pixels": 21290,
           "bbox": [
-            27,
+            12,
             5,
-            164,
+            179,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 255
+          "chroma_adjacent_pixels": 128
         }
       ]
     },
@@ -535,123 +535,123 @@
       "frames": [
         {
           "index": 0,
-          "file": "assets/frames/failed/00.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\failed\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17504,
+          "nontransparent_pixels": 22703,
           "bbox": [
-            31,
+            14,
             5,
-            161,
+            178,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 226
+          "chroma_adjacent_pixels": 189
         },
         {
           "index": 1,
-          "file": "assets/frames/failed/01.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\failed\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 19218,
+          "nontransparent_pixels": 23221,
           "bbox": [
-            23,
+            15,
             5,
-            169,
+            177,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 177
+          "chroma_adjacent_pixels": 205
         },
         {
           "index": 2,
-          "file": "assets/frames/failed/02.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\failed\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 19207,
+          "nontransparent_pixels": 23753,
           "bbox": [
-            24,
+            13,
             5,
-            168,
+            178,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 244
+          "chroma_adjacent_pixels": 234
         },
         {
           "index": 3,
-          "file": "assets/frames/failed/03.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\failed\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 19226,
+          "nontransparent_pixels": 24201,
           "bbox": [
-            23,
-            5,
-            168,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 233
-        },
-        {
-          "index": 4,
-          "file": "assets/frames/failed/04.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 23585,
-          "bbox": [
-            11,
+            12,
             5,
             180,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 265
+          "chroma_adjacent_pixels": 221
+        },
+        {
+          "index": 4,
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\failed\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 25397,
+          "bbox": [
+            5,
+            7,
+            187,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 274
         },
         {
           "index": 5,
-          "file": "assets/frames/failed/05.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\failed\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 18566,
+          "nontransparent_pixels": 23874,
           "bbox": [
-            26,
             5,
-            165,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 255
-        },
-        {
-          "index": 6,
-          "file": "assets/frames/failed/06.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 18111,
-          "bbox": [
-            29,
-            5,
-            163,
-            203
+            12,
+            187,
+            195
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 249
         },
         {
-          "index": 7,
-          "file": "assets/frames/failed/07.png",
+          "index": 6,
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\failed\\06.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 19332,
+          "nontransparent_pixels": 23970,
           "bbox": [
-            23,
             5,
-            169,
+            12,
+            187,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 232
+        },
+        {
+          "index": 7,
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\failed\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 23362,
+          "bbox": [
+            10,
+            5,
+            181,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 260
+          "chroma_adjacent_pixels": 239
         }
       ]
     },
@@ -666,93 +666,93 @@
       "frames": [
         {
           "index": 0,
-          "file": "assets/frames/waiting/00.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waiting\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16323,
+          "nontransparent_pixels": 15967,
           "bbox": [
-            31,
+            30,
             5,
-            161,
+            162,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 250
+          "chroma_adjacent_pixels": 51
         },
         {
           "index": 1,
-          "file": "assets/frames/waiting/01.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waiting\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16132,
+          "nontransparent_pixels": 16131,
           "bbox": [
-            31,
+            29,
             5,
-            161,
+            162,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 247
+          "chroma_adjacent_pixels": 67
         },
         {
           "index": 2,
-          "file": "assets/frames/waiting/02.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waiting\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15854,
+          "nontransparent_pixels": 16287,
           "bbox": [
-            30,
+            28,
             5,
-            161,
+            164,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 225
+          "chroma_adjacent_pixels": 48
         },
         {
           "index": 3,
-          "file": "assets/frames/waiting/03.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waiting\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16051,
+          "nontransparent_pixels": 16180,
           "bbox": [
-            31,
+            28,
             5,
-            161,
+            163,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 216
+          "chroma_adjacent_pixels": 55
         },
         {
           "index": 4,
-          "file": "assets/frames/waiting/04.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waiting\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16082,
+          "nontransparent_pixels": 16047,
           "bbox": [
-            30,
+            29,
             5,
-            161,
+            162,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 303
+          "chroma_adjacent_pixels": 69
         },
         {
           "index": 5,
-          "file": "assets/frames/waiting/05.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\waiting\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16218,
+          "nontransparent_pixels": 16378,
           "bbox": [
-            30,
+            28,
             5,
-            161,
+            163,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 233
+          "chroma_adjacent_pixels": 66
         }
       ]
     },
@@ -767,40 +767,40 @@
       "frames": [
         {
           "index": 0,
-          "file": "assets/frames/running/00.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16483,
+          "nontransparent_pixels": 16164,
           "bbox": [
-            27,
+            29,
             5,
-            164,
+            163,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 205
+          "chroma_adjacent_pixels": 54
         },
         {
           "index": 1,
-          "file": "assets/frames/running/01.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15398,
+          "nontransparent_pixels": 16365,
           "bbox": [
-            30,
+            28,
             5,
-            162,
+            163,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 172
+          "chroma_adjacent_pixels": 54
         },
         {
           "index": 2,
-          "file": "assets/frames/running/02.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17121,
+          "nontransparent_pixels": 16347,
           "bbox": [
             28,
             5,
@@ -808,14 +808,14 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 208
+          "chroma_adjacent_pixels": 67
         },
         {
           "index": 3,
-          "file": "assets/frames/running/03.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16530,
+          "nontransparent_pixels": 16415,
           "bbox": [
             27,
             5,
@@ -823,37 +823,37 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 210
+          "chroma_adjacent_pixels": 63
         },
         {
           "index": 4,
-          "file": "assets/frames/running/04.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running\\04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16446,
+          "nontransparent_pixels": 15834,
           "bbox": [
-            27,
+            29,
             5,
-            164,
+            163,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 277
+          "chroma_adjacent_pixels": 50
         },
         {
           "index": 5,
-          "file": "assets/frames/running/05.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\running\\05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15188,
+          "nontransparent_pixels": 16657,
           "bbox": [
-            30,
+            25,
             5,
-            162,
+            166,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 217
+          "chroma_adjacent_pixels": 61
         }
       ]
     },
@@ -868,93 +868,93 @@
       "frames": [
         {
           "index": 0,
-          "file": "assets/frames/review/00.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\review\\00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 18161,
+          "nontransparent_pixels": 16566,
           "bbox": [
-            30,
+            27,
             5,
-            162,
+            165,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 162
+          "chroma_adjacent_pixels": 48
         },
         {
           "index": 1,
-          "file": "assets/frames/review/01.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\review\\01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17726,
+          "nontransparent_pixels": 17128,
           "bbox": [
-            29,
+            25,
             5,
-            162,
+            167,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 171
+          "chroma_adjacent_pixels": 66
         },
         {
           "index": 2,
-          "file": "assets/frames/review/02.png",
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\review\\02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17717,
+          "nontransparent_pixels": 16317,
           "bbox": [
-            30,
-            5,
-            162,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 130
-        },
-        {
-          "index": 3,
-          "file": "assets/frames/review/03.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 17843,
-          "bbox": [
-            31,
-            5,
-            161,
-            203
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 178
-        },
-        {
-          "index": 4,
-          "file": "assets/frames/review/04.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 18794,
-          "bbox": [
-            28,
+            27,
             5,
             164,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 166
+          "chroma_adjacent_pixels": 49
         },
         {
-          "index": 5,
-          "file": "assets/frames/review/05.png",
+          "index": 3,
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\review\\03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17650,
+          "nontransparent_pixels": 16819,
           "bbox": [
-            30,
+            27,
             5,
-            161,
+            165,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 168
+          "chroma_adjacent_pixels": 57
+        },
+        {
+          "index": 4,
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\review\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16448,
+          "bbox": [
+            27,
+            5,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 54
+        },
+        {
+          "index": 5,
+          "file": "G:\\CodexPetRuns\\paimon-research-v2-cupholder-20260719\\frames\\review\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16436,
+          "bbox": [
+            29,
+            5,
+            163,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 40
         }
       ]
     }
